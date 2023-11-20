@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Noto+Serif+Display:wght@500&family=Sansita:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Noto+Serif+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container row justify-content-between align-items-center">
+            <div class="logo col-2">
+                <img src="./assets/logo.png" alt="" width="150">
+            </div>
+            <div class="col-9" style="display: flex; flex-direction: column; align-items: flex-end;">
+                <div class="contact_icons" style="
+                display: flex;
+                grid-column-gap: 20px; margin-right: 50px;">
+                    <a href="https://www.canva.com/link?target=https%3A%2F%2Fwww.facebook.com%2FWingsocean%2F%3Flocale%3Dvi_VN&design=DAFx-B0ZalQ&accessRole=editor&linkSource=comment">
+                        <img src="./assets/icon_fb.png" alt="" style="width: 30px;">
+                    </a>
+                    <a href="https://www.canva.com/link?target=https%3A%2F%2Fwww.instagram.com%2Fwingsoceanco.ltd%2F&design=DAFx-B0ZalQ&accessRole=editor&linkSource=comment">
+                        <img src="./assets/intagram_icon.png" alt="" style="width: 30px;">
+                    </a>
+                    <a href="">
+                        <img src="./assets/tiktok_icon.png" alt="" style="width: 30px;">
+                    </a>
+                    <a href="">
+                        <img src="./assets/linkiend.png" alt="" style="width: 30px;">
+                    </a>
+                </div>
+                <div class="nav_menu text-end">
+                    <a href="/index.html">HOME</a>
+                    <a href="./about_us.html">ABOUT US</a>
+                    <a href="#">SPECIALIZATION</a>
+                    <a href="/index.html#service">SERVICE</a>
+                    <a href="">KNOWLEDGE</a>
+                    <a href="/about_us.html">CONTACT US</a>
+                </div>
+            </div>
+            <div class="col-1 row flex-column">
+                <button style="background: none; border: none;">
+                    <img src="./assets/flag_1.png" alt="" style="width: 30px;">
+                </button>
+                <button style="background: none; border: none;">
+                    <img src="./assets/flag_2.png" alt="" style="width: 30px;">
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="8000">
+                        <img src="./assets/banner1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-start" style="font-size: 30px; font-weight: 700;">ABOUT <span class="color-primary">US.</span></h5>
+                            <p class="text-center" style="color: #fff; font-weight: 500;">Wings Ocean aims to give the values ​​of TRUST, CONSCIENTIOUS and FLEXIBILITY, creating PEACE OF MIND in every customer we serve.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="8000">
+                        <img src="./assets/banner2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-start" style="font-size: 30px; font-weight: 700;">OUR <span class="color-primary">PROJECT.</span></h5>
+                            <p class="text-center" style="color: #000; font-weight: 500;">A Wings fund will be formed to pay heart surgery for children with heart problems using a percentage of each shipment's profit.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="8000">
+                        <img src="./assets/banner3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-start" style="font-size: 30px; font-weight: 700;">OCEAN <span class="color-primary">TRANSPORT.</span></h5>
+                            <p class="text-center" style="color: #fff; font-weight: 500;">With a 360° service, we take care and monitor closely every stage of the shipment to deliver a top-quality service combining efficiency, reliability and cost control.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="8000">
+                        <img src="./assets/banner4.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-start" style="font-size: 30px; font-weight: 700;">CUSTOMS <span class="color-primary">CLEARANCE.</span></h5>
+                            <p class="text-center" style="color: #fff; font-weight: 500;">Our teams of advisers and customs brokers have in-depth knowledge of the legislation and regulations in force with 20 years experience.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="8000">
+                        <img src="./assets/banner5.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-start" style="font-size: 30px; font-weight: 700;">DOMESTIC <span class="color-primary">TRANSPORT.</span></h5>
+                            <p class="text-center" style="color: #fff; font-weight: 500;">Our diverse fleet can provide road freight transport for almost all type
+                                of commodities …. from parcels and documents to oversized and out of gauge machinery.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true" style="background-image: url('./assets/back_icon.png'); filter: unset;"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true" style="background-image: url('./assets/next_icon.png'); filter: unset;"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="specialization">
+            <div class="banner_specialization">
+                <img src="./assets/banner_specialization.png" alt="" style="width: 100%;">
+            </div>
+            <div class="container text-center">
+                <h2>Wings Ocean <span class="color-primary">Heartbeat</span> Project.</h2>
+                <p class="mt-5">We are a dedicated organization with a primary mission to assist children with heart conditions. At Wings Ocean Heartbeat Project, we not only provide financial support for heart treatments for these children but also perform heart surgeries free of charge.
+                    <span class="color-primary">We take pride in being a crucial part of healing and bringing hope to these children and their families.</span>
+                </p>
+            </div>
+        </section>
+        <section class="why_we_do_it mt-5">
+            <div class="container">
+                <div class="title_why_we_do_it row align-items-center">
+                    <div class="col-6">
+                        <img src="./assets/specialization_hear1.png" alt="">
+                    </div>
+                    <div class="col-6">
+                        <h1 style="font-family: 'Noto Serif Display', serif; font-size: 50px;">
+                            <span class="color-primary">WHY</span>
+                            <br>
+                            <span style="padding-left: 50px;">WE DO IT</span>
+                        </h1>
+
+                    </div>
+                </div>
+                <div class="content_why_we_do_it row align-items-center">
+                    <div class="col-6 overflow_content" style="max-height: 500px; overflow-y: auto;">
+                        <p>
+                            In 2012, one of Ms. Selena's nieces, who is the CEO of our company, was diagnosed with congenital heart disease at just 7 days old. She had to live in the hospital's emergency room until the seventh month of her life.
+                            <br>
+                            <br>
+                            During the time she cared for her niece, every night <span class="color-primary">she witnessed at least one child passing away for various reasons</span>. The pain deeply affected everyone who witnessed it, and fortunately, her niece's life was saved thanks to the hospital's heart surgery fund.
+                            <br>
+                            <br>
+                            Since that day, a profound sense of gratitude has grown within her, motivating her to support the next generation by sponsoring heart surgeries for underprivileged children.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <img src="./assets/specialization_hear2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="how_we_do_it" style="margin-top: 200px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <h1 style="font-family: 'Noto Serif Display', serif; font-size: 50px;">
+                            <span class="color-primary">HOW</span>
+                            <br>
+                            <span style="padding-left: 50px;">WE DO IT</span>
+                        </h1>
+                        <p>
+                            We support children <span class="color-primary">by utilizing a portion of the profits from our company</span> to give back to the community.
+                            <br>
+                            This includes performing free heart surgeries for them as well as providing medication and treatment. We are committed to ensuring that no child is left behind due to heart disease.
+                        </p>
+                    </div>
+                    <div class="col-7">
+                        <img src="./assets/why_we_do_it_hear.png" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="your_support_through_our_ventures" style="margin-top: 200px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h1 style="font-family: 'Noto Serif Display', serif; font-size: 50px;">
+                            <span class="color-primary">YOUR SUPPORT</span>
+                            <br>
+                            <span style="padding-left: 50px;">
+                                THROUGH OUR
+                            </span>
+                            <span style="padding-left: 50px;">
+                                VENTURES
+                            </span>
+                        </h1>
+                        <p style="width: 85%; margin: auto;">
+                            When you engage with our business endeavors, <span class="color-primary">you're not just investing in a product or service; you're contributing to a cause that touches the lives of children</span> and their families.
+                            <br>
+                            Every partnership, and every success story is a testament to your support in building a brighter future for these young hearts.
+                            <br>
+                            <br>
+                            <span class="color-primary">We do not accept financial donations</span> therefore, any individuals or organizations wishing to contribute and assist, we will support you in directly connecting with hospital, allowing you to share your love and compassion with children with heart conditions. We greatly appreciate your contribution and your companionship in this mission.
+
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <img src="./assets/licifcel.png" alt="" style="width: 100%;
+                        height: 500px;
+                        object-fit: cover;" >
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="service" class="service" style="margin-top: 200px;">
+            <div class="container">
+                <div class="d-flex" style="grid-column-gap: 5px;flex-wrap: wrap;grid-row-gap: 5px;justify-content: center;">
+                    <div class="service_item" style="width: 32%;">
+                        <div class="d-flex text-center service_item_wrap" style="background-image: url(./assets/service_item1.png);">
+                            <img src="./assets/icon_service1.png" alt="" class="icon_service">
+                            <span class="title_service">OCEAN <br>
+                                TRANSPORT</span>
+                                <h1 class="title_service_2">OCEAN TRANSPORT SERVICES</h1>
+                                <p class="service_content">WITH A 360° SERVICE, WE TAKE CARE AND MONITOR CLOSELY EVERY STAGE OF THE SHIPMENT TO DELIVER A TOP-QUALITY SERVICE COMBINING EFFICIENCY, RELIABILITY AND COST CONTROL.…</p>
+                                <a href="./service_1.html" class="learn_more">LEARN MORE</a>
+                        </div>
+                    </div>
+                    <div class="service_item" style="width: 32%;">
+                        <div class="d-flex text-center service_item_wrap" style="background-image: url(./assets/service_item2.png);">
+                            <img src="./assets/icon_service2.png" alt="" class="icon_service">
+                            <span class="title_service">AIR <br>
+                                TRANSPORT</span>
+                                <h1 class="title_service_2">AIR TRANSPORT SERVICES</h1>
+                                <p class="service_content">WINGS OCEAN AIRFREIGHT DEPARTMENT IS RUN BY HIGHLY SKILLFUL AND EXPERIENCED STAFF WITH YEARS OF EXPERIENCE BACKGROUND IN THE AIR TRANSPORT INDUSTRY.</p>
+                                <a href="./service_2.html" class="learn_more">LEARN MORE</a>
+                        </div>
+                    </div>
+                    <div class="service_item" style="width: 32%;">
+                        <div class="d-flex text-center service_item_wrap" style="background-image: url(./assets/service_item3.png);">
+                            <img src="./assets/icon_service3.png" alt="" class="icon_service">
+                            <span class="title_service">DOMESTICS <br>
+                                TRANSPORT</span>
+                                <h1 class="title_service_2">DOMESTIC TRANSPORT SERVICES</h1>
+                                <p class="service_content">OUR DIVERSE FLEET CAN PROVIDE ROAD FREIGHT TRANSPORT FOR ALMOST ALL TYPE OF COMMODITIES …. FROM PARCELS AND DOCUMENTS TO OVERSIZED AND OUT OF GAUGE MACHINERY.</p>
+                                <a href="./service_3.html" class="learn_more">LEARN MORE</a>
+                        </div>
+                    </div>
+                    <div class="service_item" style="width: 32%;">
+                        <div class="d-flex text-center service_item_wrap" style="background-image: url(./assets/service_item4.png);">
+                            <img src="./assets/icon_service4.png" alt="" class="icon_service">
+                            <span class="title_service">CUSTOMS<br>
+                                CLEARANCE</span>
+                                <h1 class="title_service_2">CUSTOMS CLEARANCE SERVICES</h1>
+                                <p class="service_content">
+                                    OUR TEAMS OF ADVISERS AND CUSTOMS BROKERS HAVE IN-DEPTH KNOWLEDGE OF THE LEGISLATION AND REGULATIONS IN FORCE WITH 20 YEARS EXPERIENCE.</p>
+                                <a href="./service_4.html" class="learn_more">LEARN MORE</a>
+                        </div>
+                    </div>
+                    <div class="service_item" style="width: 32%;">
+                        <div class="d-flex text-center service_item_wrap" style="background-image: url(./assets/service_item5.png);">
+                            <img src="./assets/icon_service5.png" alt="" class="icon_service">
+                            <span class="title_service">CARGO <br>
+                                TRACKING</span>
+                                <h1 class="title_service_2">CARGO TRACKING SERVICES</h1>
+                                <p class="service_content">OUR CARGO TRACKING SERVICE IS DESIGNED TO PROVIDE YOU WITH PEACE OF MIND AND THE ABILITY TO STAY IN CONTROL THROUGHOUT THE ENTIRE SHIPPING PROCESS.</p>
+                                <a href="./service_5.html" class="learn_more">LEARN MORE</a>
+                        </div>
+                    </div>
+                    <div class="service_item" style="width: 32%;">
+                        <div class="d-flex text-center service_item_wrap" style="background-image: url(./assets/service_item6.png);">
+                            <img src="./assets/icon_service6.png" alt="" class="icon_service">
+                            <span class="title_service">PROJECT
+                                <br>
+                                CARGO</span>
+                                <h1 class="title_service_2">DOMESTIC TRANSPORT SERVICES</h1>
+                                <p class="service_content">OUR DIVERSE FLEET CAN PROVIDE ROAD FREIGHT TRANSPORT FOR ALMOST ALL TYPE OF COMMODITIES …. FROM PARCELS AND DOCUMENTS TO OVERSIZED AND OUT OF GAUGE MACHINERY.</p>
+                                <a href="./service_6.html" class="learn_more">LEARN MORE</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

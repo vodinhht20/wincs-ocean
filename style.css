@@ -1,0 +1,115 @@
+.nav_menu a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Noto Serif Display', serif;
+}
+.color-primary {
+    color: #419ac8;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #419ac8;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+.content_why_we_do_it .overflow_content::-webkit-scrollbar {
+    display: none;
+}
+.service_item .service_item_wrap {
+    height: 300px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all .3s;
+}
+.service_item .service_item_wrap:hover {
+    background-image: url(./assets/item_default.png) !important;
+}
+.service_item .service_item_wrap:hover .icon_service {
+    display: none;
+}
+.service_item .service_item_wrap:hover .title_service {
+    display: none;
+}
+.service_item .service_item_wrap .title_service_2,
+.service_item .service_item_wrap .service_content,
+.service_item .service_item_wrap .learn_more {
+    display: none;
+}
+.service_item .service_item_wrap:hover .title_service_2,
+.service_item .service_item_wrap:hover .service_content,
+.service_item .service_item_wrap:hover .learn_more {
+    display: unset !important;
+}
+.service_item .service_item_wrap:hover .service_content {
+    padding: 0 20px;
+}
+.service_item .service_item_wrap .learn_more {
+    background: #fff;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-size: 13px;
+    transition: 0.3s;
+}
+.service_item .service_item_wrap .learn_more:hover {
+    background-color: #000;
+    color: #fff;
+}
+.service_item_wrap .icon_service {
+    width: 60px;
+}
+.service_item_wrap .title_service, .service_item_wrap .title_service_2 {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-family: 'Noto Serif Display', serif;
+}
+.service_item_wrap .title_service {
+    color: #fff;
+}
+.service_item_wrap .title_service_2 {
+    color: #163B52;
+}
+.service_item_wrap .service_content {
+    font-family: 'Cormorant', serif;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 13px;
+    margin-top: 30px;
+}
+.backgroud_service_page {
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.backgroud_service_page .container {
+    padding: 50px 70px;
+    height: 100%;
+}
+.position_relative {
+    position: relative;
+    height: 100%;
+}
+.position_relative h1 {
+    position: absolute;
+    bottom: 0;
+    font-family: 'Sansita', sans-serif;
+    font-family: 'Cormorant', serif;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 700;
+}
+.content_service_detail {
+    font-family: 'Cormorant', serif;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Sansita', sans-serif;
+    font-size: 13px;
+}
+.choose_wings h3{
+    font-family: 'Cormorant', serif;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Sansita', sans-serif;
+    font-weight: 300;
+}
