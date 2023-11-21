@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="./assets/logo.png" type="image/png">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Noto+Serif+Display:wght@500&family=Sansita:wght@800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&display=swap" rel="stylesheet">
@@ -13,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Noto+Serif+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Forum&family=Noto+Serif+Display:wght@500&family=Sansita:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Forum&family=Montserrat:wght@300&family=Noto+Serif+Display:wght@400;500&family=Sansita:wght@800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -45,9 +48,17 @@
                     <div class="nav_menu text-end">
                         <a href="./index.html">HOME</a>
                         <a href="./about_us.html">ABOUT US</a>
-                        <a href="#">SPECIALIZATION</a>
-                        <a href="./index.html#service">SERVICE</a>
-                        <a href="">KNOWLEDGE</a>
+                        <a href="./specialization.html">SPECIALIZATION</a>
+                        <a href="#" id="menu_service" data-bs-toggle="dropdown" aria-expanded="false">SERVICE</a>
+                        <ul class="dropdown-menu" aria-labelledby="menu_service">
+                            <li><a class="dropdown-item" href="./service_1.html">OCEAN TRANSPORT</a></li>
+                            <li><a class="dropdown-item" href="./service_2.html">AIR TRANSPORT</a></li>
+                            <li><a class="dropdown-item" href="./service_3.html">DOMESTICS TRANSPORT</a></li>
+                            <li><a class="dropdown-item" href="./service_4.html">CUSTOMS CLEARANCE</a></li>
+                            <li><a class="dropdown-item" href="./service_5.html">CARGO TRACKING</a></li>
+                            <li><a class="dropdown-item" href="./service_6.html">PROJECTCARGO</a></li>
+                        </ul>
+                        <a href="#">KNOWLEDGE</a>
                         <a href="./about_us.html">CONTACT US</a>
                     </div>
                 </div>
@@ -64,49 +75,49 @@
     </header>
     <main>
         <section class="banner">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
-                    aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
-                    aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
                 </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="8000">
+                    <div class="carousel-item active" data-bs-interval="7000">
                         <img src="./assets/banner1.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="text-start" style="font-size: 30px; font-weight: 700;">ABOUT <span class="color-primary">US.</span></h5>
                             <p class="text-center" style="color: #fff; font-weight: 500;">Wings Ocean aims to give the values ​​of TRUST, CONSCIENTIOUS and FLEXIBILITY, creating PEACE OF MIND in every customer we serve.</p>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="8000">
+                    <div class="carousel-item" data-bs-interval="7000">
                         <img src="./assets/banner2.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="text-start" style="font-size: 30px; font-weight: 700;">OUR <span class="color-primary">PROJECT.</span></h5>
                             <p class="text-center" style="color: #000; font-weight: 500;">A Wings fund will be formed to pay heart surgery for children with heart problems using a percentage of each shipment's profit.</p>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="8000">
+                    <div class="carousel-item" data-bs-interval="7000">
                         <img src="./assets/banner3.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="text-start" style="font-size: 30px; font-weight: 700;">OCEAN <span class="color-primary">TRANSPORT.</span></h5>
                             <p class="text-center" style="color: #fff; font-weight: 500;">With a 360° service, we take care and monitor closely every stage of the shipment to deliver a top-quality service combining efficiency, reliability and cost control.</p>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="8000">
+                    <div class="carousel-item" data-bs-interval="7000">
                         <img src="./assets/banner4.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="text-start" style="font-size: 30px; font-weight: 700;">CUSTOMS <span class="color-primary">CLEARANCE.</span></h5>
                             <p class="text-center" style="color: #fff; font-weight: 500;">Our teams of advisers and customs brokers have in-depth knowledge of the legislation and regulations in force with 20 years experience.</p>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="8000">
+                    <div class="carousel-item" data-bs-interval="7000">
                         <img src="./assets/banner5.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="text-start" style="font-size: 30px; font-weight: 700;">DOMESTIC <span class="color-primary">TRANSPORT.</span></h5>
@@ -115,61 +126,17 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true" style="background-image: url('./assets/back_icon.png'); filter: unset;"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true" style="background-image: url('./assets/next_icon.png'); filter: unset;"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-            </div>
-        </section>
-        <section class="specialization">
-            <div class="banner_specialization">
-                <img src="./assets/banner_specialization.png" alt="" style="width: 100%;">
-            </div>
-            <div class="container text-center">
-                <h2>Wings Ocean <span class="color-primary">Heartbeat</span> Project.</h2>
-                <p class="mt-5">We are a dedicated organization with a primary mission to assist children with heart conditions. At Wings Ocean Heartbeat Project, we not only provide financial support for heart treatments for these children but also perform heart surgeries free of charge.
-                    <span class="color-primary">We take pride in being a crucial part of healing and bringing hope to these children and their families.</span>
-                </p>
-            </div>
-        </section>
-        <section class="why_we_do_it mt-5">
-            <div class="container">
-                <div class="title_why_we_do_it row align-items-center">
-                    <div class="col-6">
-                        <img src="./assets/specialization_hear1.png" alt="">
-                    </div>
-                    <div class="col-6">
-                        <h1 style="font-family: 'Noto Serif Display', serif; font-size: 50px;">
-                            <span class="color-primary">WHY</span>
-                            <br>
-                            <span style="padding-left: 50px;">WE DO IT</span>
-                        </h1>
-
-                    </div>
-                </div>
-                <div class="content_why_we_do_it row align-items-center">
-                    <div class="col-6 overflow_content" style="max-height: 500px; overflow-y: auto;">
-                        <p>
-                            In 2012, one of Ms. Selena's nieces, who is the CEO of our company, was diagnosed with congenital heart disease at just 7 days old. She had to live in the hospital's emergency room until the seventh month of her life.
-                            <br>
-                            <br>
-                            During the time she cared for her niece, every night <span class="color-primary">she witnessed at least one child passing away for various reasons</span>. The pain deeply affected everyone who witnessed it, and fortunately, her niece's life was saved thanks to the hospital's heart surgery fund.
-                            <br>
-                            <br>
-                            Since that day, a profound sense of gratitude has grown within her, motivating her to support the next generation by sponsoring heart surgeries for underprivileged children.
-                        </p>
-                    </div>
-                    <div class="col-6">
-                        <img src="./assets/specialization_hear2.png" alt="">
-                    </div>
-                </div>
-            </div>
+              </div>
         </section>
         <section class="how_we_do_it" style="margin-top: 200px;">
             <div class="container">
@@ -196,7 +163,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-6">
-                        <h1 style="font-family: 'Noto Serif Display', serif; font-size: 50px;">
+                        <h1 style="font-family: 'Forum', serif; font-size: 70px;">
                             <span class="color-primary">YOUR SUPPORT</span>
                             <br>
                             <span style="padding-left: 50px;">
@@ -206,7 +173,7 @@
                                 VENTURES
                             </span>
                         </h1>
-                        <p style="width: 85%; margin: auto;">
+                        <p style="width: 85%; margin: auto;" class="your_support_through_our_ventur_es">
                             When you engage with our business endeavors, <span class="color-primary">you're not just investing in a product or service; you're contributing to a cause that touches the lives of children</span> and their families.
                             <br>
                             Every partnership, and every success story is a testament to your support in building a brighter future for these young hearts.
@@ -293,6 +260,66 @@
                 </div>
             </div>
         </section>
+        <section style="margin-top: 20px;">
+            <div class="container">
+                <img src="./assets/why_choose_us.png" alt="" style="width: 100%;">
+            </div>
+        </section>
+        <section>
+            <div class="container network" style="margin-top: 30px;margin-bottom: 30px;">
+                <h1 class="text-center">NETWORK</h1>
+                <div class="d-flex justify-content-center" style="grid-column-gap: 100px; margin-top: 30px;">
+                    <div class="box__icon">
+                        <img src="./assets/network1.png" alt="">
+                    </div>
+                    <div class="box__icon">
+                        <img src="./assets/network2.png" alt="">
+                    </div>
+                    <div class="box__icon">
+                        <img src="./assets/network3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <img src="./assets/we_give_you_wings.png" alt="" style="width: 100%;">
+        </section>
+        <footer class="foooter" style="padding-top: 50px;padding-bottom: 50px;">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-5">
+                        <h1 class="title text-center" style="color: #A6A6A6;">CONTACT US</h1>
+                        <h4 style="color: #FAF4F4; padding: 20px 0;">WINGS OCEAN COMPANY LIMITED</h4>
+                        <p>25 Nguyen Van Nguyen, Tan Dinh Ward, Distric 1, HCMC, Vietnam</p>
+                        <p>+84 2973008685</p>
+                        <p>sales@wingsocean.vn</p>
+                        <div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2301399748476!2d106.6846108736961!3d10.793677758878028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528d26dcbffff%3A0x55b57a9846ba1bbe!2zMjUgxJAuIE5ndXnhu4VuIFbEg24gTmd1eeG7hW4sIFBoxrDhu51uZyBUw6JuIMSQ4buLbmgsIFF14bqtbiAxLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1700586731555!5m2!1svi!2s" height="350" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <form>
+                            <div class="mb-3">
+                              <input type="text" class="form-control" placeholder="COMPANY NAME: ">
+                            </div>
+                            <div class="mb-3">
+                              <input type="email" class="form-control" placeholder="EMAIL: ">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="MOBILE PHONE: ">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="EMAIL: ">
+                            </div>
+                            <div class="mb-3">
+                                <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="REQUEST:  "></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
