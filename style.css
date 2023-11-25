@@ -102,6 +102,10 @@
     position: relative;
     height: 100%;
 }
+.banner {
+    font-family: 'Sansita', sans-serif;
+    font-size: 700;
+}
 .position_relative h1 {
     position: absolute;
     bottom: 0;
@@ -111,7 +115,7 @@
     font-weight: 700;
 }
 .content_service_detail {
-    font-size: 13px;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
 }
 .choose_wings h3{
@@ -138,8 +142,24 @@
 }
 .dropdown-menu:hover, #menu_service:hover + .dropdown-menu {
     display: block;
+}
+
+#dropdownMenu .dropdown-menu{
     position: absolute;
-    inset: 0px auto auto 0px;
-    margin: 0px;
-    transform: translate(750px, 81px);
+    transform: unset !important;
+    left: 0 !important;
+    top: 30px !important;
+}
+#submitContact {
+    transition: .3s;
+    cursor: pointer;
+}
+#submitContact img{
+    width: 10rem;
+}
+#submitContact:hover {
+    opacity: 0.8;
+}
+.skiptranslate {
+    display: none;
 }

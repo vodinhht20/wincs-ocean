@@ -9,6 +9,7 @@
     <link rel="icon" href="./assets/logo.png" type="image/png">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Noto+Serif+Display:wght@500&family=Sansita:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Forum&family=Montserrat:wght@300&family=Noto+Serif+Display:wght@400;500&family=Sansita:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&display=swap" rel="stylesheet">
@@ -49,26 +50,28 @@
                         <a href="./index.html">HOME</a>
                         <a href="./about_us.html">ABOUT US</a>
                         <a href="./specialization.html">SPECIALIZATION</a>
-                        <a href="#" id="menu_service" data-bs-toggle="dropdown" aria-expanded="false">SERVICE</a>
-                        <ul class="dropdown-menu" aria-labelledby="menu_service">
-                            <li><a class="dropdown-item" href="./service_1.html">OCEAN TRANSPORT</a></li>
-                            <li><a class="dropdown-item" href="./service_2.html">AIR TRANSPORT</a></li>
-                            <li><a class="dropdown-item" href="./service_3.html">DOMESTICS TRANSPORT</a></li>
-                            <li><a class="dropdown-item" href="./service_4.html">CUSTOMS CLEARANCE</a></li>
-                            <li><a class="dropdown-item" href="./service_5.html">CARGO TRACKING</a></li>
-                            <li><a class="dropdown-item" href="./service_6.html">PROJECTCARGO</a></li>
-                        </ul>
+                        <div style="display: inline; position: relative;" id="dropdownMenu">
+                            <a href="#" id="menu_service" data-bs-toggle="dropdown" aria-expanded="false">SERVICE</a>
+                            <ul class="dropdown-menu" aria-labelledby="menu_service">
+                                <li><a class="dropdown-item" href="./service_1.html">OCEAN TRANSPORT</a></li>
+                                <li><a class="dropdown-item" href="./service_2.html">AIR TRANSPORT</a></li>
+                                <li><a class="dropdown-item" href="./service_3.html">DOMESTICS TRANSPORT</a></li>
+                                <li><a class="dropdown-item" href="./service_4.html">CUSTOMS CLEARANCE</a></li>
+                                <li><a class="dropdown-item" href="./service_5.html">CARGO TRACKING</a></li>
+                                <li><a class="dropdown-item" href="./service_6.html">PROJECTCARGO</a></li>
+                            </ul>
+                        </div>
                         <a href="#">KNOWLEDGE</a>
                         <a href="./about_us.html">CONTACT US</a>
                     </div>
                 </div>
                 <div class="col-1 row flex-column">
-                    <button style="background: none; border: none;">
+                    <a href="#googtrans(en|en)" style="background: none; border: none;" class="flag_tras">
                         <img src="./assets/flag_1.png" alt="" style="width: 30px;">
-                    </button>
-                    <button style="background: none; border: none;">
+                    </a>
+                    <a href="#googtrans(en|vi)" style="background: none; border: none;" class="flag_tras">
                         <img src="./assets/flag_2.png" alt="" style="width: 30px;">
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -92,35 +95,35 @@
                     <div class="carousel-item active" data-bs-interval="7000">
                         <img src="./assets/banner1.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-start" style="font-size: 30px; font-weight: 700;">ABOUT <span class="color-primary">US.</span></h5>
+                            <h5 class="text-start" style="font-size: 30px; font-weight: 500;">ABOUT <span class="color-primary">US.</span></h5>
                             <p class="text-center" style="color: #fff; font-weight: 500;">Wings Ocean aims to give the values ​​of TRUST, CONSCIENTIOUS and FLEXIBILITY, creating PEACE OF MIND in every customer we serve.</p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="7000">
                         <img src="./assets/banner2.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-start" style="font-size: 30px; font-weight: 700;">OUR <span class="color-primary">PROJECT.</span></h5>
+                            <h5 class="text-start" style="font-size: 30px; font-weight: 500;">OUR <span class="color-primary">PROJECT.</span></h5>
                             <p class="text-center" style="color: #000; font-weight: 500;">A Wings fund will be formed to pay heart surgery for children with heart problems using a percentage of each shipment's profit.</p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="7000">
                         <img src="./assets/banner3.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-start" style="font-size: 30px; font-weight: 700;">OCEAN <span class="color-primary">TRANSPORT.</span></h5>
+                            <h5 class="text-start" style="font-size: 30px; font-weight: 500;">OCEAN <span class="color-primary">TRANSPORT.</span></h5>
                             <p class="text-center" style="color: #fff; font-weight: 500;">With a 360° service, we take care and monitor closely every stage of the shipment to deliver a top-quality service combining efficiency, reliability and cost control.</p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="7000">
                         <img src="./assets/banner4.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-start" style="font-size: 30px; font-weight: 700;">CUSTOMS <span class="color-primary">CLEARANCE.</span></h5>
+                            <h5 class="text-start" style="font-size: 30px; font-weight: 500;">CUSTOMS <span class="color-primary">CLEARANCE.</span></h5>
                             <p class="text-center" style="color: #fff; font-weight: 500;">Our teams of advisers and customs brokers have in-depth knowledge of the legislation and regulations in force with 20 years experience.</p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="7000">
                         <img src="./assets/banner5.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-start" style="font-size: 30px; font-weight: 700;">DOMESTIC <span class="color-primary">TRANSPORT.</span></h5>
+                            <h5 class="text-start" style="font-size: 30px; font-weight: 500;">DOMESTIC <span class="color-primary">TRANSPORT.</span></h5>
                             <p class="text-center" style="color: #fff; font-weight: 500;">Our diverse fleet can provide road freight transport for almost all type
                                 of commodities …. from parcels and documents to oversized and out of gauge machinery.</p>
                         </div>
@@ -137,59 +140,6 @@
                     <span class="visually-hidden">Next</span>
                 </button>
               </div>
-        </section>
-        <section class="how_we_do_it" style="margin-top: 200px;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-5">
-                        <h1 style="font-family: 'Noto Serif Display', serif; font-size: 50px;">
-                            <span class="color-primary">HOW</span>
-                            <br>
-                            <span style="padding-left: 50px;">WE DO IT</span>
-                        </h1>
-                        <p>
-                            We support children <span class="color-primary">by utilizing a portion of the profits from our company</span> to give back to the community.
-                            <br>
-                            This includes performing free heart surgeries for them as well as providing medication and treatment. We are committed to ensuring that no child is left behind due to heart disease.
-                        </p>
-                    </div>
-                    <div class="col-7">
-                        <img src="./assets/why_we_do_it_hear.png" alt="" width="100%">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="your_support_through_our_ventures" style="margin-top: 200px;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <h1 style="font-family: 'Forum', serif; font-size: 70px;">
-                            <span class="color-primary">YOUR SUPPORT</span>
-                            <br>
-                            <span style="padding-left: 50px;">
-                                THROUGH OUR
-                            </span>
-                            <span style="padding-left: 50px;">
-                                VENTURES
-                            </span>
-                        </h1>
-                        <p style="width: 85%; margin: auto;" class="your_support_through_our_ventur_es">
-                            When you engage with our business endeavors, <span class="color-primary">you're not just investing in a product or service; you're contributing to a cause that touches the lives of children</span> and their families.
-                            <br>
-                            Every partnership, and every success story is a testament to your support in building a brighter future for these young hearts.
-                            <br>
-                            <br>
-                            <span class="color-primary">We do not accept financial donations</span> therefore, any individuals or organizations wishing to contribute and assist, we will support you in directly connecting with hospital, allowing you to share your love and compassion with children with heart conditions. We greatly appreciate your contribution and your companionship in this mission.
-
-                        </p>
-                    </div>
-                    <div class="col-6">
-                        <img src="./assets/licifcel.png" alt="" style="width: 100%;
-                        height: 500px;
-                        object-fit: cover;" >
-                    </div>
-                </div>
-            </div>
         </section>
         <section id="service" class="service" style="margin-top: 200px;">
             <div class="container">
@@ -314,16 +264,32 @@
                             <div class="mb-3">
                                 <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="REQUEST:  "></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <div style="width: 100%;text-align: center;">
+                                <button type="submit" class="btn" id="submitContact">
+                                    <img src="./assets/button.png" alt="">
+                                </button>
+                            </div>
                         </form>
                     </div>
                 </div>
             </div>
         </footer>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+        }
+        $('.flag_tras').on('click', function() {
+            let param = $(this).attr('href');
+            location.href = window.location.origin + window.location.pathname + param;
+            location.reload();
+        });
+        $('a').each(function() {
+
+        });
+      </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 
 </html>
