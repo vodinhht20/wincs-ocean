@@ -105,10 +105,10 @@
     transform: scale(1.3);
 }
 .left_icon_td.why_1:hover .left_icon_ps {
-    width: 20rem;
+    width: 70rem;
 }
 .left_icon_td.why_2:hover .left_icon_ps {
-    width: 50rem;
+    width: 70rem;
 }
 .left_icon_td.why_3:hover .left_icon_ps {
     width: 70rem;
@@ -148,6 +148,12 @@
 }
 .network h1 {
     font-family: 'Forum', serif;
+}
+.network .box__icon img {
+    transition: .7s;
+}
+.network .box__icon:hover img {
+    transform: scale(1.1);
 }
 
 .foooter {
@@ -307,4 +313,20 @@
     width: 1;
     border: 1px dashed #263f6b;
     position: absolute;
+}
+.specialization h2{
+    font-family: 'Sansita', sans-serif;
+    font-weight: 600;
+}
+.specialization p {
+    font-family: 'Noto Serif Display', serif;
+}
+.content_why_we_do_it .overflow_content{
+    font-family: 'font_OpenSauceSans';
+}
+.how_we_do_it p {
+    font-family: 'Noto Serif Display', serif;
+}
+.title_why_we_do_it p {
+    font-family: 'Noto Serif Display', serif;
 }
