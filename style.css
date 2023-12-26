@@ -410,11 +410,55 @@
     background-image: url(./assets/bg_choose.png);
     height: 100px;
     display: flex;
-    align-items: center
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .choose_wing_title h3{
     margin-left: 350px;
     font-weight: 600;
     color: #fff;
     margin-bottom: 0;
+}
+.section_core_value {
+    background-image: url(./assets/bg_image_p.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    font-family: 'Sansita', sans-serif; 
+    background-position-y: 70px;
+}
+.section_core_value::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff80;
+}
+.top_c h4, .bottom_c h4 {
+    color: #555555;
+    font-weight: 700;
+}
+
+.top_c p {
+    border-bottom: 3px dashed #A6A6A6;
+}
+
+.bottom_c p {
+    border-top: 3px dashed #A6A6A6;
+}
+
+.top_c p, .bottom_c p {
+    padding: 50px 15px;
+    color: #163B52;
+    font-family: 'Sansita', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.bottom_c h4 {
+    margin-top: 200px;
 }
