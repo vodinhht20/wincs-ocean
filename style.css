@@ -154,6 +154,15 @@
     border: none;
     border-radius: 0;
 }
+.foooter form input {
+    height: 57px;
+}
+.foooter form textarea {
+    height: 300px;
+}
+.foooter iframe {
+    margin-top: 4px;
+}
 .dropdown-menu:hover, #menu_service:hover + .dropdown-menu {
     display: block;
 }
@@ -461,4 +470,21 @@
 }
 .bottom_c h4 {
     margin-top: 200px;
+}
+
+body > main > footer > div > div > div.col-6 {
+    margin-top: 35px;
+}
+
+@media (max-width: 767px) {
+    body {
+        transform: rotate(90deg);
+        transform-origin: left top;
+        width: 100vh;
+        height: 100vw;
+        overflow-x: hidden;
+        position: fixed;
+        top: 100%;
+        left: 0;
+    }
 }
