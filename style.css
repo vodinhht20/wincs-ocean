@@ -123,7 +123,7 @@
 }
 .content_service_detail {
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif Display';
 }
 .choose_wings h3{
     font-family: 'Forum', serif;
@@ -315,7 +315,19 @@
     font-family: 'Noto Serif Display', serif;
 }
 .content_why_we_do_it .overflow_content{
-    font-family: 'font_OpenSauceSans';
+    font-family: 'Noto Serif Display', serif;
+}
+body > main > section.choose_wings.mt-5 > div.container {
+    position: relative;
+}
+body > main > section.choose_wings.mt-5 > div.container:before {
+    content: '';
+    position: absolute;
+    height: 90%;
+    width: 3px;
+    top: 21px;
+    left: 47px;
+    border-left: 2px dotted #2a2a99;
 }
 .how_we_do_it p {
     font-family: 'Noto Serif Display', serif;
@@ -457,12 +469,12 @@
     border-bottom: 3px dashed #A6A6A6;
 }
 
-.bottom_c p {
+.bottom_c h4 {
     border-top: 3px dashed #A6A6A6;
 }
 
 .top_c p, .bottom_c p {
-    padding: 50px 15px;
+    padding: 35px 15px;
     color: #163B52;
     font-family: 'Sansita', sans-serif;
     font-weight: 400;
@@ -470,6 +482,10 @@
 }
 .bottom_c h4 {
     margin-top: 200px;
+    padding-top: 25px;
+}
+body > main > section.section_core_value > div > div > div:nth-child(4) > div > h4 {
+    border: unset;
 }
 
 body > main > footer > div > div > div.col-6 {
