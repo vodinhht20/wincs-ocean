@@ -45,7 +45,7 @@
                             <img src="./assets/linkiend.png" alt="" style="width: 30px;">
                         </a>
                     </div>
-                    <div class="nav_menu text-end">
+                    <div class="nav_menu text-end" translate="no">
                         <a href="./index.html">HOME</a>
                         <a href="./about_us.html">ABOUT US</a>
                         <a href="./specialization.html">SPECIALIZATION</a>
@@ -227,6 +227,25 @@
             let hrefUrl = $(this).attr('href');
             location.href = hrefUrl + window.location.hash;
         });
+
+        var hashUrl = window.location.hash;
+        if (hashUrl === '#googtrans(en|vi)') {
+            $('body > header > div > div > div.col-9 > div.nav_menu.text-end > a:nth-child(1)').text('TRANG CHỦ');
+            $('body > header > div > div > div.col-9 > div.nav_menu.text-end > a:nth-child(2)').text('GIÓI THIỆU');
+            $('body > header > div > div > div.col-9 > div.nav_menu.text-end > a:nth-child(3)').text('CHUYÊN NGÀNH');
+            $('#menu_service').text('DỊCH VỤ');
+            $('body > header > div > div > div.col-9 > div.nav_menu.text-end > a:nth-child(5)').text('KIẾN THỨC');
+            $('body > header > div > div > div.col-9 > div.nav_menu.text-end > a:nth-child(6)').text('LIÊN HỆ');
+        }
+        var hashUrl = window.location.hash;
+        if (hashUrl === '#googtrans(en|vi)') {
+            $('body > header > div > div > div.col-9 > div.nav_menu.text-end > a:nth-child(1)').text('TRANG CHỦ');
+            $('body > header > div > div > div.col-9 > div.nav_menu.text-end > a:nth-child(2)').text('GIÓI THIỆU');
+            $('body > header > div > div > div.col-9 > div.nav_menu.text-end > a:nth-child(3)').text('CHUYÊN NGÀNH');
+            $('#menu_service').text('DỊCH VỤ');
+            $('body > header > div > div > div.col-9 > div.nav_menu.text-end > a:nth-child(5)').text('KIẾN THỨC');
+            $('body > header > div > div > div.col-9 > div.nav_menu.text-end > a:nth-child(6)').text('LIÊN HỆ');
+        }
       </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>

@@ -448,7 +448,7 @@ body > main > section.choose_wings.mt-5 > div.container:before {
     background-position: center;
     position: relative;
     font-family: 'Sansita', sans-serif; 
-    background-position-y: 70px;
+    background-position-y: 30px;
 }
 .section_core_value::before
 {
@@ -479,6 +479,7 @@ body > main > section.choose_wings.mt-5 > div.container:before {
     font-family: 'Sansita', sans-serif;
     font-weight: 400;
     font-style: italic;
+    padding-top: 10px;
 }
 .bottom_c h4 {
     margin-top: 200px;
@@ -491,16 +492,10 @@ body > main > section.section_core_value > div > div > div:nth-child(4) > div > 
 body > main > footer > div > div > div.col-6 {
     margin-top: 35px;
 }
-
-@media (max-width: 767px) {
+@media (max-width: 800px) {
     body {
-        transform: rotate(90deg);
-        transform-origin: left top;
-        width: 100vh;
-        height: 100vw;
-        overflow-x: hidden;
-        position: fixed;
-        top: 100%;
-        left: 0;
+        width: 1905px;
+        height: auto;
+        zoom: 1.7;
     }
 }
