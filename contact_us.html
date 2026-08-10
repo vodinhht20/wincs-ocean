@@ -14,6 +14,7 @@
     
     <!-- Bootstrap 5 & Custom CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css?v=2.0.0">
 </head>
 
@@ -122,7 +123,7 @@
         <!-- Page Hero Banner -->
         <section class="page-hero-banner" style="background-image: linear-gradient(rgba(10, 25, 47, 0.75), rgba(10, 25, 47, 0.85)), url(./assets/bg_footer.png);">
             <div class="container text-center">
-                <h1 data-i18n="nav_contact">CONTACT US</h1>
+                <h1 data-i18n="nav_contact">CONTACT <span class="color-primary">US</span></h1>
                 <p class="text-light lead mt-2" data-i18n="company_name_label">WINGS OCEAN COMPANY LIMITED</p>
             </div>
         </section>
@@ -132,36 +133,46 @@
             <div class="container">
                 <div class="row g-5">
                     <div class="col-lg-5 col-12">
-                        <div class="p-4 bg-light rounded-4 border shadow-sm h-100">
-                            <h3 class="mb-4 text-primary font-serif" data-i18n="contact_title">CONTACT US</h3>
-                            <h5 class="fw-bold mb-3" data-i18n="company_name_label">WINGS OCEAN COMPANY LIMITED</h5>
-                            
-                            <div class="mb-3 d-flex align-items-start gap-3">
-                                <span class="fs-4">📍</span>
-                                <div>
-                                    <strong class="d-block text-dark">Address:</strong>
-                                    <span class="text-secondary" data-i18n="address_val">25 Nguyen Van Nguyen, Tan Dinh Ward, District 1, HCMC, Vietnam</span>
+                        <div class="contact-info-card h-100">
+                            <div class="contact-info-header">
+                                <span class="contact-badge" data-i18n="contact_title">CONTACT US</span>
+                                <h4 class="company-title" data-i18n="company_name_label">WINGS OCEAN COMPANY LIMITED</h4>
+                            </div>
+
+                            <div class="contact-items-list">
+                                <div class="contact-item">
+                                    <div class="contact-icon-box">
+                                        <i class="bi bi-geo-alt-fill"></i>
+                                    </div>
+                                    <div class="contact-text-content">
+                                        <span class="contact-label">Address</span>
+                                        <span class="contact-value" data-i18n="address_val">25 Nguyen Van Nguyen, Tan Dinh Ward, District 1, HCMC, Vietnam</span>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <div class="contact-icon-box">
+                                        <i class="bi bi-telephone-fill"></i>
+                                    </div>
+                                    <div class="contact-text-content">
+                                        <span class="contact-label">Phone</span>
+                                        <a href="tel:+842973008685" class="contact-link" data-i18n="phone_val">+84 2973008685</a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <div class="contact-icon-box">
+                                        <i class="bi bi-envelope-at-fill"></i>
+                                    </div>
+                                    <div class="contact-text-content">
+                                        <span class="contact-label">Email</span>
+                                        <a href="mailto:sales@wingsocean.vn" class="contact-link" data-i18n="email_val">sales@wingsocean.vn</a>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="mb-3 d-flex align-items-center gap-3">
-                                <span class="fs-4">📞</span>
-                                <div>
-                                    <strong class="d-block text-dark">Phone:</strong>
-                                    <a href="tel:+842973008685" class="text-secondary" data-i18n="phone_val">+84 2973008685</a>
-                                </div>
-                            </div>
-
-                            <div class="mb-4 d-flex align-items-center gap-3">
-                                <span class="fs-4">✉️</span>
-                                <div>
-                                    <strong class="d-block text-dark">Email:</strong>
-                                    <a href="mailto:sales@wingsocean.vn" class="text-secondary" data-i18n="email_val">sales@wingsocean.vn</a>
-                                </div>
-                            </div>
-
-                            <div class="footer-map-wrap rounded-3 overflow-hidden shadow-sm">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2301399748476!2d106.6846108736961!3d10.793677758878028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528d26dcbffff%3A0x55b57a9846ba1bbe!2zMjUgxJAuIE5ndXnhu4VuIFbEg24gTmd1eeG7hW4sIFBoxrDhu51uZyBUw6JuIMSQ4buLbmgsIFF14bqtbiAxLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1700586731555!5m2!1svi!2s" height="260" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="contact-map-card">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2301399748476!2d106.6846108736961!3d10.793677758878028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528d26dcbffff%3A0x55b57a9846ba1bbe!2zMjUgxJAuIE5ndXnhu4VuIFbEg24gTmd1eeG7hW4sIFBoxrDhu51uZyBUw6JuIMSQ4buLbmgsIFF14bqtbiAxLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1700586731555!5m2!1svi!2s" height="240" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>
