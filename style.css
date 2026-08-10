@@ -403,15 +403,15 @@ main {
 }
 
 .hero-modern-card {
-    background: rgba(10, 25, 47, 0.58);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
-    border: 1px solid rgba(255, 255, 255, 0.16);
-    border-radius: 24px;
-    padding: 42px 50px;
-    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    background: transparent;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    border: none;
+    border-radius: 0;
+    padding: 8px 0 8px 32px;
+    box-shadow: none;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .hero-modern-card::before {
@@ -419,9 +419,36 @@ main {
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    height: 2px;
-    background: linear-gradient(90deg, var(--accent-cyan) 0%, var(--primary) 50%, transparent 100%);
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, #00E5FF 0%, #0077FF 60%, rgba(0, 229, 255, 0.2) 100%);
+    border-radius: 4px;
+    box-shadow: 0 0 14px rgba(0, 229, 255, 0.8), 0 0 28px rgba(0, 119, 255, 0.4);
+    animation: heroBorderGlowPulse 2.5s ease-in-out infinite alternate;
+}
+
+.hero-carousel .carousel-item.active .hero-modern-card::before {
+    animation: heroLeftBorderSlideDown 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards, heroBorderGlowPulse 2.5s ease-in-out 0.8s infinite alternate;
+}
+
+@keyframes heroBorderGlowPulse {
+    0% {
+        box-shadow: 0 0 8px rgba(0, 229, 255, 0.5), 0 0 16px rgba(0, 119, 255, 0.3);
+    }
+    100% {
+        box-shadow: 0 0 22px rgba(0, 229, 255, 1), 0 0 40px rgba(0, 119, 255, 0.7);
+    }
+}
+
+@keyframes heroLeftBorderSlideDown {
+    0% {
+        height: 0%;
+        opacity: 0;
+    }
+    100% {
+        height: 100%;
+        opacity: 1;
+    }
 }
 
 .hero-tech-badge {
@@ -1147,6 +1174,18 @@ main {
     font-size: 3rem;
     color: #FFFFFF;
     font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+.page-hero-banner h1 .color-primary,
+.page-hero-banner .color-primary {
+    color: #00E5FF;
+    background: linear-gradient(135deg, #00E5FF 0%, #38BDF8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    filter: drop-shadow(0 2px 10px rgba(0, 229, 255, 0.45));
 }
 
 .service-intro-box {
