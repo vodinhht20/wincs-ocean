@@ -4,212 +4,235 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Wings Ocean</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Air Transport - Wings Ocean</title>
     <link rel="icon" href="./assets/logo.png" type="image/png">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Noto+Serif+Display:wght@500&family=Sansita:wght@800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&display=swap" rel="stylesheet">
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Noto+Serif+Display:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Forum&family=Noto+Serif+Display:wght@500&family=Sansita:wght@800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Forum&family=Montserrat:wght@300&family=Noto+Serif+Display:wght@400;500&family=Sansita:wght@800&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Forum&family=Montserrat:wght@300;400;500;600;700;800&family=Noto+Serif+Display:wght@400;500;600;700&family=Sansita:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 & Custom CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css?v=2.0.0">
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="logo col-2">
-                    <img src="./assets/logo.png" alt="" width="250">
-                </div>
-                <div class="col-9" style="display: flex; flex-direction: column; align-items: flex-end;">
-                    <div class="contact_icons" style="
-                    display: flex;
-                    grid-column-gap: 20px; margin-right: 50px;">
-                        <a href="https://www.facebook.com/Wingsocean">
-                            <img src="./assets/icon_fb.png" alt="" style="width: 30px;">
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="./index.html" class="logo-brand">
+                <img src="./assets/logo.png" alt="Wings Ocean Logo">
+            </a>
+
+            <div class="header-right">
+                <div class="d-none d-md-flex align-items-center gap-3 mb-1">
+                    <div class="social-bar">
+                        <a href="https://www.facebook.com/Wingsocean" target="_blank" aria-label="Facebook">
+                            <img src="./assets/icon_fb.png" alt="FB">
                         </a>
-                        <a href="https://www.instagram.com/wingsoceanco.ltd?igsh=MXEwYmhzMXJxcXJjdQ==">
-                            <img src="./assets/intagram_icon.png" alt="" style="width: 30px;">
+                        <a href="https://www.instagram.com/wingsoceanco.ltd?igsh=MXEwYmhzMXJxcXJjdQ==" target="_blank" aria-label="Instagram">
+                            <img src="./assets/intagram_icon.png" alt="IG">
                         </a>
-                        <a href="">
-                            <img src="./assets/tiktok_icon.png" alt="" style="width: 30px;">
+                        <a href="#" aria-label="TikTok">
+                            <img src="./assets/tiktok_icon.png" alt="TT">
                         </a>
-                        <a href="">
-                            <img src="./assets/linkiend.png" alt="" style="width: 30px;">
+                        <a href="#" aria-label="LinkedIn">
+                            <img src="./assets/linkiend.png" alt="LI">
                         </a>
                     </div>
-                    <div class="nav_menu text-end" translate="no">
-                        <a href="./index.html">HOME</a>
-                        <a href="./about_us.html">ABOUT US</a>
-                        <a href="./specialization.html">SPECIALIZATION</a>
-                        <div style="display: inline; position: relative;" id="dropdownMenu">
-                            <a href="#" id="menu_service" data-bs-toggle="dropdown" aria-expanded="false">SERVICE</a>
-                            <ul class="dropdown-menu" aria-labelledby="menu_service">
-                                <li><a class="dropdown-item" href="./service_1.html">OCEAN TRANSPORT</a></li>
-                                <li><a class="dropdown-item" href="./service_2.html">AIR TRANSPORT</a></li>
-                                <li><a class="dropdown-item" href="./service_3.html">DOMESTICS TRANSPORT</a></li>
-                                <li><a class="dropdown-item" href="./service_4.html">CUSTOMS CLEARANCE</a></li>
-                                <li><a class="dropdown-item" href="./service_5.html">CARGO TRACKING</a></li>
-                                <li><a class="dropdown-item" href="./service_6.html">PROJECTCARGO</a></li>
-                            </ul>
-                        </div>
-                        <a href="#">KNOWLEDGE</a>
-                        <a href="./contact_us.html">CONTACT US</a>
+                    
+                    <!-- Language Switcher Pill -->
+                    <div class="lang-switcher-pill">
+                        <button type="button" class="lang-btn" data-lang="en" title="English">
+                            <img src="./assets/flag_1.png" alt="EN"> EN
+                        </button>
+                        <button type="button" class="lang-btn" data-lang="vi" title="Tiếng Việt">
+                            <img src="./assets/flag_2.png" alt="VI"> VI
+                        </button>
                     </div>
                 </div>
-                <div class="col-1 row flex-column">
-                    <a href="#googtrans(en|en)" style="background: none; border: none;" class="flag_tras">
-                        <img src="./assets/flag_1.png" alt="" style="width: 30px;">
-                    </a>
-                    <a href="#googtrans(en|vi)" style="background: none; border: none;" class="flag_tras">
-                        <img src="./assets/flag_2.png" alt="" style="width: 30px;">
-                    </a>
-                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="desktop-nav">
+                    <a href="./index.html" class="nav-link-item" data-i18n="nav_home">HOME</a>
+                    <a href="./about_us.html" class="nav-link-item" data-i18n="nav_about">ABOUT US</a>
+                    <a href="./specialization.html" class="nav-link-item" data-i18n="nav_specialization">SPECIALIZATION</a>
+                    
+                    <div class="dropdown d-inline-block">
+                        <a href="#" class="nav-link-item dropdown-toggle active" id="menu_service" data-bs-toggle="dropdown" aria-expanded="false" data-i18n="nav_service">SERVICE</a>
+                        <ul class="dropdown-menu shadow" aria-labelledby="menu_service">
+                            <li><a class="dropdown-item" href="./service_1.html" data-i18n="nav_service_ocean">OCEAN TRANSPORT</a></li>
+                            <li><a class="dropdown-item active" href="./service_2.html" data-i18n="nav_service_air">AIR TRANSPORT</a></li>
+                            <li><a class="dropdown-item" href="./service_3.html" data-i18n="nav_service_domestic">DOMESTICS TRANSPORT</a></li>
+                            <li><a class="dropdown-item" href="./service_4.html" data-i18n="nav_service_customs">CUSTOMS CLEARANCE</a></li>
+                            <li><a class="dropdown-item" href="./service_5.html" data-i18n="nav_service_tracking">CARGO TRACKING</a></li>
+                            <li><a class="dropdown-item" href="./service_6.html" data-i18n="nav_service_project">PROJECT CARGO</a></li>
+                        </ul>
+                    </div>
+                    
+                    <a href="#" class="nav-link-item" data-i18n="nav_knowledge">KNOWLEDGE</a>
+                    <a href="./contact_us.html" class="nav-link-item" data-i18n="nav_contact">CONTACT US</a>
+                </nav>
             </div>
+
+            <!-- Mobile Hamburger Toggle -->
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+                &#9776;
+            </button>
         </div>
     </header>
+
+    <!-- Mobile Drawer Offcanvas -->
+    <div class="nav-mobile-overlay"></div>
+    <aside class="nav-mobile-drawer">
+        <div class="mobile-drawer-header">
+            <img src="./assets/logo.png" alt="Wings Ocean" height="36">
+            <button class="mobile-nav-close" aria-label="Close menu">&times;</button>
+        </div>
+
+        <div class="lang-switcher-pill mb-3 align-self-start">
+            <button type="button" class="lang-btn" data-lang="en">
+                <img src="./assets/flag_1.png" alt="EN"> EN
+            </button>
+            <button type="button" class="lang-btn" data-lang="vi">
+                <img src="./assets/flag_2.png" alt="VI"> VI
+            </button>
+        </div>
+
+        <div class="mobile-nav-links">
+            <a href="./index.html" data-i18n="nav_home">HOME</a>
+            <a href="./about_us.html" data-i18n="nav_about">ABOUT US</a>
+            <a href="./specialization.html" data-i18n="nav_specialization">SPECIALIZATION</a>
+            <a href="./service_2.html" class="active" data-i18n="nav_service">SERVICE</a>
+            <div class="mobile-nav-sublinks">
+                <a href="./service_1.html" data-i18n="nav_service_ocean">OCEAN TRANSPORT</a>
+                <a href="./service_2.html" class="active" data-i18n="nav_service_air">AIR TRANSPORT</a>
+                <a href="./service_3.html" data-i18n="nav_service_domestic">DOMESTICS TRANSPORT</a>
+                <a href="./service_4.html" data-i18n="nav_service_customs">CUSTOMS CLEARANCE</a>
+                <a href="./service_5.html" data-i18n="nav_service_tracking">CARGO TRACKING</a>
+                <a href="./service_6.html" data-i18n="nav_service_project">PROJECT CARGO</a>
+            </div>
+            <a href="#" data-i18n="nav_knowledge">KNOWLEDGE</a>
+            <a href="./contact_us.html" data-i18n="nav_contact">CONTACT US</a>
+        </div>
+    </aside>
+
     <main>
-        <section class="backgroud_service_page" style="background-image: url(./assets/bg_service2.png);">
+        <!-- Page Hero Banner -->
+        <section class="page-hero-banner" style="background-image: url(./assets/bg_service2.png);">
             <div class="container">
-                <div class="position_relative">
-                    <h1 style=""><span class="color-primary">AIR</span> TRANSPORT<span class="color-primary">.</span></h1>
-                </div>
+                <h1 data-i18n="s2_title"><span class="color-primary">AIR</span> TRANSPORT<span class="color-primary">.</span></h1>
             </div>
         </section>
-        <section class="mt-5">
+
+        <!-- Intro Description -->
+        <section class="service-intro-box text-center">
             <div class="container">
-                <p class="text-center content_service_detail">
-                    In order to accompany our clients for their time critical shipments, WINGS OCEAN airfreight department is run by highly skillful and experienced staff with years of experience background in the air transport industry.
-                        <br>
-                        <br>
-                    Thanks to our extensive network of strategically distributed correspondents in the most important commercial areas worldwide as well as a deep understanding of this business sector mechanisms, we can design the best solutions for our customers depending on their individual needs
+                <p data-i18n="s2_desc">
+                    In order to accompany our clients for their time critical shipments, WINGS OCEAN airfreight department is run by highly skillful and experienced staff with years of experience background in the air transport industry.<br><br>Thanks to our extensive network of strategically distributed correspondents in the most important commercial areas worldwide as well as a deep understanding of this business sector mechanisms, we can design the best solutions for our customers depending on their individual needs.
                 </p>
             </div>
         </section>
-        <section class="choose_wings mt-5" style="margin-bottom: 50px;">
-            <div class="choose_wing_title">
-                <h3 class="color-primary">Choose <span class="colo_choose_text">Wings Ocean</span> for your air freight and you’ll get</h3>
-            </div>
+
+        <!-- Choose Wings Ocean List Section -->
+        <section class="pb-5">
             <div class="container">
-                <div class="mt-3 row">
-                    <div class="col-1 wrap_icon">
-                        <img src="./assets/bg_icon_2.png" alt="" class="bg_icon">
-                        <img src="./assets/service_2_1.png" alt="" class="icon">
-                        <!-- <span class="line_cu"></span> -->
+                <div class="choose-wings-container container">
+                    <div class="choose-wings-header text-center">
+                        <h3 data-i18n="s2_choose_title">Choose Wings Ocean for your air freight and you’ll get</h3>
                     </div>
-                    <div class="col-11 wrap_content">
-                        <h3>Swift and Reliable Service: </h3>
-                        <p>We understand the importance of time in air freight, and our services are designed to ensure your cargo reaches its destination promptly and securely.</p>
-                    </div>
-                </div>
-                <div class="mt-3 row">
-                    <div class="col-1 wrap_icon">
-                        <img src="./assets/bg_icon_2.png" alt="" class="bg_icon">
-                        <img src="./assets/service_2_2.png" alt="" class="icon">
-                    </div>
-                    <div class="col-11 wrap_content">
-                        <h3>Customized Solutions:</h3>
-                        <p>Our team works closely with you to develop tailored solutions that meet your specific air freight needs, regardless of cargo type or size, ensuring your cargo's smooth journey.</p>
-                    </div>
-                </div>
-                <div class="mt-3 row">
-                    <div class="col-1 wrap_icon">
-                        <img src="./assets/bg_icon_2.png" alt="" class="bg_icon">
-                        <img src="./assets/service_2_3.png" alt="" class="icon">
-                    </div>
-                    <div class="col-11 wrap_content">
-                        <h3>Competitive Pricing: </h3>
-                        <p>We offer cost-effective air freight solutions that allow you to optimize your transportation budget while maintaining quality service.</p>
-                    </div>
-                </div>
-                <div class="mt-3 row">
-                    <div class="col-1 wrap_icon">
-                        <img src="./assets/bg_icon_2.png" alt="" class="bg_icon">
-                        <img src="./assets/service_1_4.png" alt="" class="icon">
-                    </div>
-                    <div class="col-11 wrap_content">
-                        <h3>Continuous Monitoring: </h3>
-                        <p>We provide real-time tracking and updates on your cargo's status, giving you peace of mind and control over your shipments.</p>
+
+                    <div class="px-md-4">
+                        <div class="choose-item-row">
+                            <div class="choose-item-icon">
+                                <img src="./assets/service_2_1.png" alt="Service">
+                            </div>
+                            <div class="choose-item-content">
+                                <h3 data-i18n="s2_item1_h">Swift and Reliable Service:</h3>
+                                <p data-i18n="s2_item1_p">We understand the importance of time in air freight, and our services are designed to ensure your cargo reaches its destination promptly and securely.</p>
+                            </div>
+                        </div>
+
+                        <div class="choose-item-row">
+                            <div class="choose-item-icon">
+                                <img src="./assets/service_2_2.png" alt="Solutions">
+                            </div>
+                            <div class="choose-item-content">
+                                <h3 data-i18n="s2_item2_h">Customized Solutions:</h3>
+                                <p data-i18n="s2_item2_p">Our team works closely with you to develop tailored solutions that meet your specific air freight needs, regardless of cargo type or size, ensuring your cargo's smooth journey.</p>
+                            </div>
+                        </div>
+
+                        <div class="choose-item-row">
+                            <div class="choose-item-icon">
+                                <img src="./assets/service_2_3.png" alt="Pricing">
+                            </div>
+                            <div class="choose-item-content">
+                                <h3 data-i18n="s2_item3_h">Competitive Pricing:</h3>
+                                <p data-i18n="s2_item3_p">We offer cost-effective air freight solutions that allow you to optimize your transportation budget while maintaining quality service.</p>
+                            </div>
+                        </div>
+
+                        <div class="choose-item-row">
+                            <div class="choose-item-icon">
+                                <img src="./assets/service_1_4.png" alt="Monitoring">
+                            </div>
+                            <div class="choose-item-content">
+                                <h3 data-i18n="s2_item4_h">Continuous Monitoring:</h3>
+                                <p data-i18n="s2_item4_p">We provide real-time tracking and updates on your cargo's status, giving you peace of mind and control over your shipments.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-    <footer class="foooter" style="padding-top: 50px;padding-bottom: 50px;">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-5">
-                        <h1 class="title text-center" style="color: #A6A6A6;">CONTACT US</h1>
-                        <h4 style="color: #FAF4F4; padding: 20px 0;">WINGS OCEAN COMPANY LIMITED</h4>
-                        <p>25 Nguyen Van Nguyen, Tan Dinh Ward, Distric 1, HCMC, Vietnam</p>
-                        <p>+84 2973008685</p>
-                        <p>sales@wingsocean.vn</p>
-                        <div>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2301399748476!2d106.6846108736961!3d10.793677758878028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528d26dcbffff%3A0x55b57a9846ba1bbe!2zMjUgxJAuIE5ndXnhu4VuIFbEg24gTmd1eeG7hW4sIFBoxrDhu51uZyBUw6JuIMSQ4buLbmgsIFF14bqtbiAxLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1700586731555!5m2!1svi!2s" height="300" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
+    </main>
+
+    <!-- Footer & Contact Section -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-5 justify-content-between">
+                <div class="col-lg-5 col-12">
+                    <h2 class="footer-title" data-i18n="contact_title">CONTACT US</h2>
+                    <div class="footer-info">
+                        <h4 data-i18n="company_name_label">WINGS OCEAN COMPANY LIMITED</h4>
+                        <p>📍 <span data-i18n="address_val">25 Nguyen Van Nguyen, Tan Dinh Ward, District 1, HCMC, Vietnam</span></p>
+                        <p>📞 <span data-i18n="phone_val">+84 2973008685</span></p>
+                        <p>✉️ <span data-i18n="email_val">sales@wingsocean.vn</span></p>
                     </div>
-                    <div class="col-6">
-                        <form>
-                            <div class="mb-3">
-                              <input type="text" class="form-control" placeholder="COMPANY NAME: ">
-                            </div>
-                            <div class="mb-3">
-                              <input type="email" class="form-control" placeholder="EMAIL: ">
-                            </div>
-                            <div class="mb-3">
-                                <input type="text" class="form-control" placeholder="MOBILE PHONE: ">
-                            </div>
-                            <div class="mb-3">
-                                <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="REQUEST:  "></textarea>
-                            </div>
-                            <div style="width: 100%;text-align: center;">
-                                <button type="submit" class="btn" id="submitContact">
-                                    <img src="./assets/button.png" alt="">
-                                </button>
-                            </div>
-                        </form>
+                    <div class="footer-map-wrap">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2301399748476!2d106.6846108736961!3d10.793677758878028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528d26dcbffff%3A0x55b57a9846ba1bbe!2zMjUgxJAuIE5ndXnhu4VuIFbEg24gTmd1eeG7hW4sIFBoxrDhu51uZyBUw6JuIMSQ4buLbmgsIFF14bqtbiAxLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1700586731555!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
-            </div>
-        </footer>
-</main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
-        }
-        $('.flag_tras').on('click', function() {
-            let param = $(this).attr('href');
-            location.href = window.location.origin + window.location.pathname + param;
-            location.reload();
-        });
-        $('a').on('click', function(event) {
-            event.preventDefault();
-            let hrefUrl = $(this).attr('href');
-            location.href = hrefUrl + window.location.hash;
-        });
 
-        var hashUrl = window.location.hash;
-        if (hashUrl.search('googtrans(en|vi)') >= 0) {
-            $('body > header > div > div > div.col-9 > div.nav_menu.text-end > a:nth-child(1)').text('TRANG CHỦ');
-            $('body > header > div > div > div.col-9 > div.nav_menu.text-end > a:nth-child(2)').text('GIÓI THIỆU');
-            $('body > header > div > div > div.col-9 > div.nav_menu.text-end > a:nth-child(3)').text('CHUYÊN NGÀNH');
-            $('#menu_service').text('DỊCH VỤ');
-            $('body > header > div > div > div.col-9 > div.nav_menu.text-end > a:nth-child(5)').text('KIẾN THỨC');
-            $('body > header > div > div > div.col-9 > div.nav_menu.text-end > a:nth-child(6)').text('LIÊN HỆ');
-        }
-      </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <script type="text/javascript" src="./index.js"></script>
+                <div class="col-lg-6 col-12">
+                    <form class="wings-contact-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control company-inp" name="companyName" placeholder="COMPANY NAME:" data-i18n="ph_company" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control email-inp" name="email" placeholder="EMAIL ADDRESS:" data-i18n="ph_email" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control phone-inp" name="phone" placeholder="MOBILE PHONE:" data-i18n="ph_phone" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control request-inp" name="request" rows="5" placeholder="YOUR REQUEST / MESSAGE:" data-i18n="ph_request"></textarea>
+                        </div>
+                        <div class="text-center text-md-start">
+                            <button type="submit" class="btn-wings-submit" data-i18n="btn_submit">SEND MESSAGE</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap & App Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./js/i18n.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
