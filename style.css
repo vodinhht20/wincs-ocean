@@ -472,6 +472,7 @@ main {
     animation: pulseDot 1.8s infinite;
 }
 
+.hero-modern-card h5,
 .hero-carousel .carousel-caption h5 {
     font-size: 3.4rem;
     font-weight: 800;
@@ -481,6 +482,12 @@ main {
     letter-spacing: 1.5px;
     line-height: 1.15;
     text-transform: uppercase;
+    filter: drop-shadow(-1px -1px 0 rgba(255, 255, 255, 0.95)) 
+            drop-shadow(1px -1px 0 rgba(255, 255, 255, 0.95)) 
+            drop-shadow(-1px 1px 0 rgba(255, 255, 255, 0.95)) 
+            drop-shadow(1px 1px 0 rgba(255, 255, 255, 0.95)) 
+            drop-shadow(0 0 3px rgba(255, 255, 255, 0.5))
+            drop-shadow(0 4px 14px rgba(0, 0, 0, 0.5));
 }
 
 .hero-carousel .carousel-caption h5 .color-primary {
