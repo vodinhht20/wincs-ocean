@@ -365,6 +365,7 @@ class I18nEngine {
     this.currentLang = lang;
     localStorage.setItem('wings_lang', lang);
     this.applyLanguage(lang);
+    document.dispatchEvent(new CustomEvent('languageChanged', { detail: { lang } }));
   }
 
   applyLanguage(lang) {
@@ -375,6 +376,7 @@ class I18nEngine {
     // Translate all elements with data-i18n
     const elements = document.querySelectorAll('[data-i18n]');
     elements.forEach(el => {
+      delete el.dataset.originalHtml;
       const key = el.getAttribute('data-i18n');
       if (dict[key] !== undefined) {
         if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {

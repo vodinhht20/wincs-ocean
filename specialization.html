@@ -119,32 +119,41 @@
     </aside>
 
     <main>
-        <!-- Hero Banner Image -->
-        <section class="hero-banner-section text-center">
-            <img src="./assets/banner_specialization.png" alt="Specialization Heartbeat Project" class="img-fluid w-100">
+        <!-- Hero Banner Section -->
+        <section class="spec-hero-section">
+            <div class="spec-hero-img-wrap">
+                <img src="./assets/banner_specialization.png" alt="Specialization Heartbeat Project" class="img-fluid w-100">
+                <div class="spec-hero-overlay"></div>
+            </div>
         </section>
 
         <!-- Title & Intro Section -->
-        <section class="py-5 bg-light text-center">
+        <section class="spec-intro-section text-center">
             <div class="container">
-                <h2 class="mb-4 display-6 fw-bold" data-i18n="spec_title">Wings Ocean <span class="color-primary">Heartbeat</span> Project<span class="color-primary">.</span></h2>
-                <p class="lead text-dark mx-auto" style="max-width: 960px;" data-i18n="spec_intro">
-                    We are a dedicated organization with a primary mission to assist children with heart conditions. At Wings Ocean Heartbeat Project, we not only provide financial support for heart treatments for these children but also perform heart surgeries free of charge. <span class="color-primary">We take pride in being a crucial part of healing and bringing hope to these children and their families.</span>
-                </p>
+                <h2 class="spec-intro-title" data-i18n="spec_title">Wings Ocean <span class="color-primary">Heartbeat</span> Project<span class="color-primary">.</span></h2>
+                <div class="spec-intro-card">
+                    <p class="spec-intro-text" data-i18n="spec_intro">
+                        We are a dedicated organization with a primary mission to assist children with heart conditions. At Wings Ocean Heartbeat Project, we not only provide financial support for heart treatments for these children but also perform heart surgeries free of charge. <span class="color-primary">We take pride in being a crucial part of healing and bringing hope to these children and their families.</span>
+                    </p>
+                </div>
             </div>
         </section>
 
         <!-- WHY WE DO IT Section -->
-        <section class="py-5">
+        <section class="spec-feature-section">
             <div class="container">
                 <div class="row align-items-center g-5">
-                    <div class="col-lg-6 col-12 text-center text-lg-start">
-                        <img src="./assets/specialization_hear1.png" alt="Why We Do It" class="img-fluid rounded-4 shadow-sm">
+                    <div class="col-lg-6 col-12">
+                        <div class="spec-image-frame">
+                            <img src="./assets/specialization_hear1.png" alt="Why We Do It" class="img-fluid">
+                        </div>
                     </div>
                     <div class="col-lg-6 col-12">
-                        <h2 class="display-5 fw-bold mb-4" data-i18n="why_we_do_it_h1"><span class="color-primary">WHY</span><br>WE DO IT</h2>
-                        <div class="p-4 bg-light rounded-4 border">
-                            <p class="mb-0 text-secondary" style="line-height: 1.8;" data-i18n="why_we_do_it_p">
+                        <div class="spec-feature-header">
+                            <h2 class="spec-feature-title" data-i18n="why_we_do_it_h1"><span class="color-primary">WHY</span><br>WE DO IT</h2>
+                        </div>
+                        <div class="spec-text-box">
+                            <p class="spec-text-content" data-i18n="why_we_do_it_p">
                                 In 2012, one of Ms. Selena's nieces, who is the CEO of our company, was diagnosed with congenital heart disease at just 7 days old. She had to live in the hospital's emergency room until the seventh month of her life.<br><br>During the time she cared for her niece, every night <span class="color-primary">she witnessed at least one child passing away for various reasons</span>. The pain deeply affected everyone who witnessed it, and fortunately, her niece's life was saved thanks to the hospital's heart surgery fund.<br><br>Since that day, a profound sense of gratitude has grown within her, motivating her to support the next generation by sponsoring heart surgeries for underprivileged children.
                             </p>
                         </div>
@@ -154,34 +163,46 @@
         </section>
 
         <!-- HOW WE DO IT Section -->
-        <section class="py-5 bg-light">
+        <section class="spec-feature-section bg-light-ambient">
             <div class="container">
                 <div class="row align-items-center g-5">
                     <div class="col-lg-6 col-12 order-2 order-lg-1">
-                        <h2 class="display-5 fw-bold mb-4" data-i18n="how_we_do_it_h1"><span class="color-primary">HOW</span><br>WE DO IT</h2>
-                        <p class="lead text-secondary mb-0" style="line-height: 1.8;" data-i18n="how_we_do_it_p">
-                            We support children <span class="color-primary">by utilizing a portion of the profits from our company</span> to give back to the community.<br>This includes performing free heart surgeries for them as well as providing medication and treatment. We are committed to ensuring that no child is left behind due to heart disease.
-                        </p>
+                        <div class="spec-feature-header">
+                            <h2 class="spec-feature-title" data-i18n="how_we_do_it_h1"><span class="color-primary">HOW</span><br>WE DO IT</h2>
+                        </div>
+                        <div class="spec-text-box">
+                            <p class="spec-text-content" data-i18n="how_we_do_it_p">
+                                We support children <span class="color-primary">by utilizing a portion of the profits from our company</span> to give back to the community.<br>This includes performing free heart surgeries for them as well as providing medication and treatment. We are committed to ensuring that no child is left behind due to heart disease.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-lg-6 col-12 order-1 order-lg-2 text-center">
-                        <img src="./assets/why_we_do_it_hear.png" alt="How We Do It" class="img-fluid rounded-4 shadow-sm" style="max-height: 360px; object-fit: cover;">
+                    <div class="col-lg-6 col-12 order-1 order-lg-2">
+                        <div class="spec-image-frame">
+                            <img src="./assets/why_we_do_it_hear.png" alt="How We Do It" class="img-fluid" style="max-height: 420px; width: 100%; object-fit: cover;">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- YOUR SUPPORT Section -->
-        <section class="py-5">
+        <section class="spec-feature-section">
             <div class="container">
                 <div class="row align-items-center g-5">
                     <div class="col-lg-6 col-12">
-                        <h2 class="display-5 fw-bold mb-4" data-i18n="your_support_h1"><span class="color-primary">YOUR SUPPORT</span><br>THROUGH OUR VENTURES</h2>
-                        <p class="text-secondary" style="line-height: 1.8;" data-i18n="your_support_p">
-                            When you engage with our business endeavors, <span class="color-primary">you're not just investing in a product or service; you're contributing to a cause that touches the lives of children</span> and their families.<br>Every partnership, and every success story is a testament to your support in building a brighter future for these young hearts.<br><br><span class="color-primary">We do not accept financial donations</span> therefore, any individuals or organizations wishing to contribute and assist, we will support you in directly connecting with hospital, allowing you to share your love and compassion with children with heart conditions. We greatly appreciate your contribution and your companionship in this mission.
-                        </p>
+                        <div class="spec-feature-header">
+                            <h2 class="spec-feature-title" data-i18n="your_support_h1"><span class="color-primary">YOUR SUPPORT</span><br>THROUGH OUR VENTURES</h2>
+                        </div>
+                        <div class="spec-text-box">
+                            <p class="spec-text-content" data-i18n="your_support_p">
+                                When you engage with our business endeavors, <span class="color-primary">you're not just investing in a product or service; you're contributing to a cause that touches the lives of children</span> and their families.<br>Every partnership, and every success story is a testament to your support in building a brighter future for these young hearts.<br><br><span class="color-primary">We do not accept financial donations</span> therefore, any individuals or organizations wishing to contribute and assist, we will support you in directly connecting with hospital, allowing you to share your love and compassion with children with heart conditions. We greatly appreciate your contribution and your companionship in this mission.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-lg-6 col-12 text-center">
-                        <img src="./assets/licifcel.png" alt="Your Support Heartbeat" class="img-fluid rounded-4 shadow" style="max-height: 480px; width: 100%; object-fit: cover;">
+                    <div class="col-lg-6 col-12">
+                        <div class="spec-image-frame">
+                            <img src="./assets/licifcel.png" alt="Your Support Heartbeat" class="img-fluid" style="max-height: 520px; width: 100%; object-fit: cover;">
+                        </div>
                     </div>
                 </div>
             </div>
