@@ -51,6 +51,16 @@ const translations = {
     banner5_title: "<span class='color-primary'>DOMESTIC</span> TRANSPORT",
     banner5_desc: "Our diverse fleet can provide road freight transport for almost all type of commodities .... from parcels and documents to oversized and out of gauge machinery.",
 
+    // Page Hero Banner Subtitles
+    about_hero_sub: "Giving the values of TRUST, CONSCIENTIOUS and FLEXIBILITY, creating PEACE OF MIND in every customer we serve.",
+    s1_hero_sub: "Full 360° integrated door-to-door ocean transport with cost control, efficiency, and reliability.",
+    s2_hero_sub: "Time-critical airfreight solutions backed by experienced international aviation logistics experts.",
+    s3_hero_sub: "Diverse inland road transport fleet for all cargo types from parcels to heavy oversized machinery.",
+    s4_hero_sub: "Expert advisers and customs brokers with 20+ years of regulatory and legislative experience.",
+    s5_hero_sub: "Real-time cargo tracking service designed for transparency & total peace of mind throughout shipping.",
+    s6_hero_sub: "Specialized heavy-lift and high-complexity project cargo transport across Vietnamese territory.",
+    contact_hero_sub: "Our team of experts is ready to discuss and provide tailored logistics solutions for your every challenge.",
+
     // Home Services Cards
     service_eyebrow: "OUR CORE SOLUTIONS",
     srv1_title: "OCEAN<br>TRANSPORT",
@@ -219,11 +229,21 @@ const translations = {
     banner5_title: "VẬN TẢI <span class='color-primary'>NỘI ĐỊA</span>",
     banner5_desc: "Đội xe đa dạng của chúng tôi có thể vận chuyển đường bộ cho hầu hết mọi loại hàng hóa... từ bưu phẩm, tài liệu đến máy móc siêu trường siêu trọng.",
 
+    // Page Hero Banner Subtitles
+    about_hero_sub: "Mang lại các giá trị UY TÍN, TẬN TÂM và LINH HOẠT, tạo nên sự YÊN TÂM tuyệt đối cho từng khách hàng.",
+    s1_hero_sub: "Dịch vụ vận tải đường biển trọn gói 360° từ cửa đến cửa với độ tin cậy và tối ưu chi phí.",
+    s2_hero_sub: "Giải pháp vận tải hàng không hỏa tốc với đội ngũ chuyên gia hàng không quốc tế giàu kinh nghiệm.",
+    s3_hero_sub: "Đội xe vận tải đường bộ nội địa đa dạng đáp ứng mọi loại hàng hóa đến thiết bị siêu trường siêu trọng.",
+    s4_hero_sub: "Đội ngũ cố vấn hải quan chuyên nghiệp với hơn 20 năm kinh nghiệm am hiểu sâu sắc luật định.",
+    s5_hero_sub: "Dịch vụ theo dõi hành trình lô hàng thời gian thực mang lại sự minh bạch và yên tâm tuyệt đối.",
+    s6_hero_sub: "Vận chuyển hàng dự án siêu trường siêu trọng và độ phức tạp cao trên toàn lãnh thổ Việt Nam.",
+    contact_hero_sub: "Đội ngũ chuyên gia của chúng tôi sẵn sàng lắng nghe và tư vấn giải pháp tối ưu cho mọi thách thức.",
+
     // Hero Banner Carousel
     banner_eyebrow: "WINGS OCEAN LOGISTICS",
     btn_explore: "KHÁM PHÁ DỊCH VỤ ➔",
     btn_contact_us: "LIÊN HỆ NGAY",
-    banner1_title: "DỊCH VỤ VẬN TẢI ĐƯỜNG BIỂN",
+    banner1_title: "Về <span class='color-primary'>Chúng Tôi</span>",
     srv1_desc: "VỚI DỊCH VỤ 360°, CHÚNG TÔI THEO DÕI CHẶT CHẼ TỪNG GIAI ĐOẠN CỦA LÔ HÀNG ĐỂ MANG LẠI CHẤT LƯỢNG HÀNG ĐẦU KẾT HỢP HIỆU QUẢ VÀ TỐI ƯU CHI PHÍ.…",
     srv2_title: "VẬN TẢI<br>HÀNG KHÔNG",
     srv2_desc: "BỘ PHẬN VẬN TẢI HÀNG KHÔNG WINGS OCEAN ĐƯỢC ĐIỀU HÀNH BỞI ĐỘI NGŨ NHÂN VIÊN GIÀU KINH NGHIỆM TRONG NGÀNH VẬN TẢI HÀNG KHÔNG QUỐC TẾ.",
