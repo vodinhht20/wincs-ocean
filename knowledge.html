@@ -4,16 +4,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Specialization - Heartbeat Project - Wings Ocean</title>
+    <title>Knowledge & Insights - Wings Ocean Logistics</title>
+    <meta name="description" content="In-depth logistics articles, international ocean shipping guides, customs clearance insights, and airfreight trends from Wings Ocean experts.">
     <link rel="icon" href="./assets/logo.png" type="image/png">
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Forum&family=Montserrat:wght@300;400;500;600;700;800&family=Noto+Serif+Display:wght@400;500;600;700&family=Sansita:wght@400;700;800&display=swap" rel="stylesheet">
-    
+
     <!-- Bootstrap 5 & Custom CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css?v=2.0.0">
 </head>
 
@@ -41,7 +43,7 @@
                             <img src="./assets/linkiend.png" alt="LI">
                         </a>
                     </div>
-                    
+
                     <!-- Language Switcher Pill -->
                     <div class="lang-switcher-pill">
                         <button type="button" class="lang-btn" data-lang="en" title="English">
@@ -57,8 +59,8 @@
                 <nav class="desktop-nav">
                     <a href="./index.html" class="nav-link-item" data-i18n="nav_home">HOME</a>
                     <a href="./about_us.html" class="nav-link-item" data-i18n="nav_about">ABOUT US</a>
-                    <a href="./specialization.html" class="nav-link-item active" data-i18n="nav_specialization">SPECIALIZATION</a>
-                    
+                    <a href="./specialization.html" class="nav-link-item" data-i18n="nav_specialization">SPECIALIZATION</a>
+
                     <div class="dropdown d-inline-block">
                         <a href="#" class="nav-link-item dropdown-toggle" id="menu_service" data-bs-toggle="dropdown" aria-expanded="false" data-i18n="nav_service">SERVICE</a>
                         <ul class="dropdown-menu shadow" aria-labelledby="menu_service">
@@ -70,8 +72,8 @@
                             <li><a class="dropdown-item" href="./service_6.html" data-i18n="nav_service_project">PROJECT CARGO</a></li>
                         </ul>
                     </div>
-                    
-                    <a href="./knowledge.html" class="nav-link-item" data-i18n="nav_knowledge">KNOWLEDGE</a>
+
+                    <a href="./knowledge.html" class="nav-link-item active" data-i18n="nav_knowledge">KNOWLEDGE</a>
                     <a href="./contact_us.html" class="nav-link-item" data-i18n="nav_contact">CONTACT US</a>
                 </nav>
             </div>
@@ -103,7 +105,7 @@
         <div class="mobile-nav-links">
             <a href="./index.html" data-i18n="nav_home">HOME</a>
             <a href="./about_us.html" data-i18n="nav_about">ABOUT US</a>
-            <a href="./specialization.html" class="active" data-i18n="nav_specialization">SPECIALIZATION</a>
+            <a href="./specialization.html" data-i18n="nav_specialization">SPECIALIZATION</a>
             <a href="./service_1.html" data-i18n="nav_service">SERVICE</a>
             <div class="mobile-nav-sublinks">
                 <a href="./service_1.html" data-i18n="nav_service_ocean">OCEAN TRANSPORT</a>
@@ -113,100 +115,29 @@
                 <a href="./service_5.html" data-i18n="nav_service_tracking">CARGO TRACKING</a>
                 <a href="./service_6.html" data-i18n="nav_service_project">PROJECT CARGO</a>
             </div>
-            <a href="./knowledge.html" data-i18n="nav_knowledge">KNOWLEDGE</a>
+            <a href="./knowledge.html" class="active" data-i18n="nav_knowledge">KNOWLEDGE</a>
             <a href="./contact_us.html" data-i18n="nav_contact">CONTACT US</a>
         </div>
     </aside>
 
     <main>
-        <!-- Hero Banner Section -->
-        <section class="spec-hero-section">
-            <div class="spec-hero-img-wrap">
-                <img src="./assets/banner_specialization.png" alt="Specialization Heartbeat Project" class="img-fluid w-100">
-                <div class="spec-hero-overlay"></div>
-            </div>
-        </section>
-
-        <!-- Title & Intro Section -->
-        <section class="spec-intro-section text-center">
+        <!-- Page Hero Banner -->
+        <section class="page-hero-banner" style="background-image: linear-gradient(rgba(10, 25, 47, 0.75), rgba(10, 25, 47, 0.85)), url(./assets/bg_service1.png.png);">
             <div class="container">
-                <h2 class="spec-intro-title" data-i18n="spec_title">Wings Ocean <span class="color-primary">Heartbeat</span> Project<span class="color-primary">.</span></h2>
-                <div class="spec-intro-card">
-                    <p class="spec-intro-text" data-i18n="spec_intro">
-                        We are a dedicated organization with a primary mission to assist children with heart conditions. At Wings Ocean Heartbeat Project, we not only provide financial support for heart treatments for these children but also perform heart surgeries free of charge. <span class="color-primary">We take pride in being a crucial part of healing and bringing hope to these children and their families.</span>
-                    </p>
+                <div class="page-hero-content-card">
+                    <div class="page-hero-eyebrow">
+                        <span class="pulse-dot"></span> WINGS OCEAN KNOWLEDGE
+                    </div>
+                    <h1 data-i18n="knowledge_hero_title">KNOWLEDGE & <span class="color-primary">INSIGHTS</span>.</h1>
+                    <p class="page-hero-subtitle" data-i18n="knowledge_hero_sub">Authoritative logistics guides, freight market intelligence, and customs compliance advice to empower your international trade.</p>
                 </div>
             </div>
         </section>
 
-        <!-- WHY WE DO IT Section -->
-        <section class="spec-feature-section">
-            <div class="container">
-                <div class="row align-items-center g-5">
-                    <div class="col-lg-6 col-12">
-                        <div class="spec-image-frame">
-                            <img src="./assets/specialization_hear1.png" alt="Why We Do It" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-12">
-                        <div class="spec-feature-header">
-                            <h2 class="spec-feature-title" data-i18n="why_we_do_it_h1"><span class="color-primary">WHY</span><br>WE DO IT</h2>
-                        </div>
-                        <div class="spec-text-box">
-                            <p class="spec-text-content" data-i18n="why_we_do_it_p">
-                                In 2012, one of Ms. Selena's nieces, who is the CEO of our company, was diagnosed with congenital heart disease at just 7 days old. She had to live in the hospital's emergency room until the seventh month of her life.<br><br>During the time she cared for her niece, every night <span class="color-primary">she witnessed at least one child passing away for various reasons</span>. The pain deeply affected everyone who witnessed it, and fortunately, her niece's life was saved thanks to the hospital's heart surgery fund.<br><br>Since that day, a profound sense of gratitude has grown within her, motivating her to support the next generation by sponsoring heart surgeries for underprivileged children.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- HOW WE DO IT Section -->
-        <section class="spec-feature-section bg-light-ambient">
-            <div class="container">
-                <div class="row align-items-center g-5">
-                    <div class="col-lg-6 col-12 order-2 order-lg-1">
-                        <div class="spec-feature-header">
-                            <h2 class="spec-feature-title" data-i18n="how_we_do_it_h1"><span class="color-primary">HOW</span><br>WE DO IT</h2>
-                        </div>
-                        <div class="spec-text-box">
-                            <p class="spec-text-content" data-i18n="how_we_do_it_p">
-                                We support children <span class="color-primary">by utilizing a portion of the profits from our company</span> to give back to the community.<br>This includes performing free heart surgeries for them as well as providing medication and treatment. We are committed to ensuring that no child is left behind due to heart disease.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-12 order-1 order-lg-2">
-                        <div class="spec-image-frame">
-                            <img src="./assets/why_we_do_it_hear.png" alt="How We Do It" class="img-fluid" style="max-height: 420px; width: 100%; object-fit: cover;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- YOUR SUPPORT Section -->
-        <section class="spec-feature-section">
-            <div class="container">
-                <div class="row align-items-center g-5">
-                    <div class="col-lg-6 col-12">
-                        <div class="spec-feature-header">
-                            <h2 class="spec-feature-title" data-i18n="your_support_h1"><span class="color-primary">YOUR SUPPORT</span><br>THROUGH OUR VENTURES</h2>
-                        </div>
-                        <div class="spec-text-box">
-                            <p class="spec-text-content" data-i18n="your_support_p">
-                                When you engage with our business endeavors, <span class="color-primary">you're not just investing in a product or service; you're contributing to a cause that touches the lives of children</span> and their families.<br>Every partnership, and every success story is a testament to your support in building a brighter future for these young hearts.<br><br><span class="color-primary">We do not accept financial donations</span> therefore, any individuals or organizations wishing to contribute and assist, we will support you in directly connecting with hospital, allowing you to share your love and compassion with children with heart conditions. We greatly appreciate your contribution and your companionship in this mission.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-12">
-                        <div class="spec-image-frame">
-                            <img src="./assets/licifcel.png" alt="Your Support Heartbeat" class="img-fluid" style="max-height: 520px; width: 100%; object-fit: cover;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <!-- Main Dynamic Knowledge Container -->
+        <div id="knowledgeMainContainer">
+            <!-- Dynamically populated by js/knowledge.js -->
+        </div>
     </main>
 
     <!-- Footer & Contact Section -->
@@ -217,9 +148,9 @@
                     <h2 class="footer-title" data-i18n="contact_title">CONTACT US</h2>
                     <div class="footer-info">
                         <h4 data-i18n="company_name_label">WINGS OCEAN COMPANY LIMITED</h4>
-                        <p>📍 <span data-i18n="address_val">25 Nguyen Van Nguyen, Tan Dinh Ward, District 1, HCMC, Vietnam</span></p>
-                        <p>📞 <span data-i18n="phone_val">+84 2973008685</span></p>
-                        <p>✉️ <span data-i18n="email_val">sales@wingsocean.vn</span></p>
+                        <p><i class="bi bi-geo-alt-fill text-info me-2"></i><span data-i18n="address_val">25 Nguyen Van Nguyen, Tan Dinh Ward, District 1, HCMC, Vietnam</span></p>
+                        <p><i class="bi bi-telephone-fill text-info me-2"></i><span data-i18n="phone_val">+84 2973008685</span></p>
+                        <p><i class="bi bi-envelope-at-fill text-info me-2"></i><span data-i18n="email_val">sales@wingsocean.vn</span></p>
                     </div>
                     <div class="footer-map-wrap">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2301399748476!2d106.6846108736961!3d10.793677758878028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528d26dcbffff%3A0x55b57a9846ba1bbe!2zMjUgxJAuIE5ndXnhu4VuIFbEg24gTmd1eeG7hW4sIFBoxrDhu51uZyBUw6JuIMSQ4buLbmgsIFF14bqtbiAxLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1700586731555!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -252,7 +183,9 @@
     <!-- Bootstrap & App Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="./js/i18n.js"></script>
+    <script src="./js/articles-data.js"></script>
     <script src="./js/app.js"></script>
+    <script src="./js/knowledge.js"></script>
 </body>
 
 </html>
