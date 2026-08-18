@@ -72,7 +72,7 @@
                         </ul>
                     </div>
 
-                    <a href="#" class="nav-link-item" data-i18n="nav_knowledge">KNOWLEDGE</a>
+                    <a href="./knowledge.html" class="nav-link-item" data-i18n="nav_knowledge">KNOWLEDGE</a>
                     <a href="./contact_us.html" class="nav-link-item" data-i18n="nav_contact">CONTACT US</a>
                 </nav>
             </div>
@@ -114,7 +114,7 @@
                 <a href="./service_5.html" data-i18n="nav_service_tracking">CARGO TRACKING</a>
                 <a href="./service_6.html" data-i18n="nav_service_project">PROJECT CARGO</a>
             </div>
-            <a href="#" data-i18n="nav_knowledge">KNOWLEDGE</a>
+            <a href="./knowledge.html" data-i18n="nav_knowledge">KNOWLEDGE</a>
             <a href="./contact_us.html" data-i18n="nav_contact">CONTACT US</a>
         </div>
     </aside>
@@ -359,6 +359,44 @@
             </div>
         </section>
 
+        <!-- Featured Knowledge & News Section (Autoplay Carousel) -->
+        <section class="home-knowledge-section">
+            <div class="container">
+                <div class="knowledge-section-header text-center animate-on-scroll">
+                    <h2 class="home-knowledge-title"><span data-i18n="home_knowledge_title_1">Knowledge &</span> <span class="color-primary" data-i18n="home_knowledge_title_2">Industry Insights</span></h2>
+                    <p class="home-knowledge-sub" data-i18n="home_knowledge_sub">Stay updated with global maritime trends, customs compliance guides, and logistics expertise from Wings Ocean professionals.</p>
+                </div>
+
+                <!-- Slider Container -->
+                <div class="home-knowledge-slider-wrapper animate-on-scroll">
+                    <!-- Controls: Prev / Next Buttons -->
+                    <button class="slider-nav-btn prev-btn" id="knowledgePrevBtn" aria-label="Previous articles">
+                        <i class="bi bi-chevron-left"></i>
+                    </button>
+                    <button class="slider-nav-btn next-btn" id="knowledgeNextBtn" aria-label="Next articles">
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+
+                    <!-- Slider Viewport & Track -->
+                    <div class="knowledge-slider-viewport" id="knowledgeSliderViewport">
+                        <div class="knowledge-slider-track" id="knowledgeSliderTrack">
+                            <!-- Populated dynamically by js/home-knowledge-slider.js -->
+                        </div>
+                    </div>
+
+                    <!-- Slider Pagination Dots -->
+                    <div class="knowledge-slider-dots" id="knowledgeSliderDots"></div>
+                </div>
+
+                <div class="text-center mt-4 animate-on-scroll">
+                    <a href="./knowledge.html" class="btn-all-knowledge" data-i18n="btn_all_articles">
+                        <span>VIEW ALL ARTICLES</span>
+                        <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
         <!-- Network Section -->
         <section class="network-section text-center">
             <div class="container">
@@ -435,7 +473,9 @@
     <!-- Bootstrap & App Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="./js/i18n.js"></script>
+    <script src="./js/articles-data.js"></script>
     <script src="./js/app.js"></script>
+    <script src="./js/home-knowledge-slider.js"></script>
 </body>
 
 </html>
