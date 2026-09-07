@@ -7,7 +7,7 @@ const translations = {
     // Navigation
     nav_home: "HOME",
     nav_about: "ABOUT US",
-    nav_specialization: "SPECIALIZATION",
+    nav_specialization: "HEART FUND",
     nav_service: "SERVICE",
     nav_service_ocean: "OCEAN TRANSPORT",
     nav_service_air: "AIR TRANSPORT",
@@ -40,16 +40,16 @@ const translations = {
     btn_contact_us: "CONTACT US",
 
     // Home Banners
-    banner1_title: "ABOUT <span class='color-primary'>US</span>",
+    banner1_title: "ABOUT <span class='color-primary'>US.</span>",
     banner1_desc: "Wings Ocean aims to give the values of TRUST, CONSCIENTIOUS and FLEXIBILITY, creating PEACE OF MIND in every customer we serve.",
-    banner2_title: "OUR <span class='color-primary'>PROJECT</span>",
-    banner2_desc: "A Wings fund will be formed to pay heart surgery for children with heart problems using a percentage of each shipment's profit.",
-    banner3_title: "<span class='color-primary'>OCEAN</span> TRANSPORT",
+    banner2_title: "OUR <span class='color-primary'>PROJECT.</span>",
+    banner2_desc: "A Wings Ocean fund will be formed to pay heart surgery for children with heart problems using a percentage of each shipment's profit.",
+    banner3_title: "<span class='color-primary'>OCEAN</span> TRANSPORT.",
     banner3_desc: "With a 360° service, we take care and monitor closely every stage of the shipment to deliver a top-quality service combining efficiency, reliability and cost control.",
-    banner4_title: "<span class='color-primary'>CUSTOMS</span> CLEARANCE",
-    banner4_desc: "Our teams of advisers and customs brokers have in-depth knowledge of the legislation and regulations in force with 20 years experience.",
-    banner5_title: "<span class='color-primary'>DOMESTIC</span> TRANSPORT",
-    banner5_desc: "Our diverse fleet can provide road freight transport for almost all type of commodities .... from parcels and documents to oversized and out of gauge machinery.",
+    banner4_title: "<span class='color-primary'>CUSTOMS</span> CLEARANCE.",
+    banner4_desc: "Our team of advisers and customs brokers has in-depth knowledge of applicable laws and regulations, backed by 20 years of experience.",
+    banner5_title: "<span class='color-primary'>DOMESTIC</span> TRANSPORT.",
+    banner5_desc: "Our diverse fleet provides reliable road freight solutions for almost all types of commodities, from parcels and documents to oversized and out-of-gauge machinery.",
 
     // Page Hero Banner Subtitles
     about_hero_sub: "Giving the values of TRUST, CONSCIENTIOUS and FLEXIBILITY, creating PEACE OF MIND in every customer we serve.",
@@ -226,7 +226,7 @@ const translations = {
     // Navigation
     nav_home: "TRANG CHỦ",
     nav_about: "GIỚI THIỆU",
-    nav_specialization: "CHUYÊN NGÀNH",
+    nav_specialization: "QUỸ TIM",
     nav_service: "DỊCH VỤ",
     nav_service_ocean: "VẬN TẢI ĐƯỜNG BIỂN",
     nav_service_air: "VẬN TẢI HÀNG KHÔNG",
@@ -254,16 +254,16 @@ const translations = {
     btn_submit: "GỬI YÊU CẦU",
 
     // Home Banners
-    banner1_title: "VỀ <span class='color-primary'>CHÚNG TÔI</span>",
-    banner1_desc: "Wings Ocean hướng tới việc mang lại các giá trị UY TÍN, TẬN TÂM và LINH HOẠT, tạo nên sự YÊN TÂM tuyệt đối cho từng khách hàng mà chúng tôi phục vụ.",
-    banner2_title: "DỰ ÁN <span class='color-primary'>CỦA CHÚNG TÔI</span>",
-    banner2_desc: "Quỹ Wings được thành lập nhằm tài trợ phẫu thuật tim cho trẻ em mắc bệnh tim bằng một phần lợi nhuận từ mỗi lô hàng.",
-    banner3_title: "VẬN TẢI <span class='color-primary'>ĐƯỜNG BIỂN</span>",
-    banner3_desc: "Với dịch vụ 360°, chúng tôi theo dõi chặt chẽ từng giai đoạn của lô hàng để mang lại dịch vụ chất lượng hàng đầu kết hợp hiệu quả, độ tin cậy và kiểm soát chi phí.",
-    banner4_title: "THỦ TỤC <span class='color-primary'>HẢI QUAN</span>",
-    banner4_desc: "Đội ngũ cố vấn và đại lý hải quan của chúng tôi có kiến thức sâu rộng về pháp luật và quy định hiện hành với hơn 20 năm kinh nghiệm.",
-    banner5_title: "VẬN TẢI <span class='color-primary'>NỘI ĐỊA</span>",
-    banner5_desc: "Đội xe đa dạng của chúng tôi có thể vận chuyển đường bộ cho hầu hết mọi loại hàng hóa... từ bưu phẩm, tài liệu đến máy móc siêu trường siêu trọng.",
+    banner1_title: "VỀ <span class='color-primary'>CHÚNG TÔI.</span>",
+    banner1_desc: "Wings Ocean hướng đến việc mang lại những giá trị: TIN CẬY, TẬN TÂM và LINH HOẠT, tạo nên SỰ AN TÂM cho mọi khách hàng mà chúng tôi phục vụ.",
+    banner2_title: "DỰ ÁN <span class='color-primary'>CỦA CHÚNG TÔI.</span>",
+    banner2_desc: "Wings Ocean sẽ thành lập một quỹ thiện nguyện, trích một phần lợi nhuận từ mỗi lô hàng để hỗ trợ chi phí phẫu thuật tim cho trẻ em mắc bệnh tim bẩm sinh.",
+    banner3_title: "VẬN TẢI <span class='color-primary'>ĐƯỜNG BIỂN.</span>",
+    banner3_desc: "Với dịch vụ 360°, Wings Ocean đồng hành và giám sát chặt chẽ mọi giai đoạn của lô hàng, đảm bảo dịch vụ chất lượng cao, tối ưu hiệu quả, duy trì sự tin cậy và kiểm soát chi phí.",
+    banner4_title: "THỦ TỤC <span class='color-primary'>HẢI QUAN.</span>",
+    banner4_desc: "Đội ngũ tư vấn và môi giới hải quan của chúng tôi có kiến thức chuyên sâu về các quy định và pháp luật hiện hành, với nền tảng 20 năm kinh nghiệm.",
+    banner5_title: "VẬN TẢI <span class='color-primary'>NỘI ĐỊA.</span>",
+    banner5_desc: "Đội xe đa dạng của chúng tôi cung cấp các giải pháp vận tải đường bộ đáng tin cậy cho hầu hết các loại hàng hóa, từ bưu kiện, chứng từ đến máy móc quá khổ và hàng hóa vượt kích thước tiêu chuẩn.",
 
     // Page Hero Banner Subtitles
     about_hero_sub: "Mang lại các giá trị UY TÍN, TẬN TÂM và LINH HOẠT, tạo nên sự YÊN TÂM tuyệt đối cho từng khách hàng mà chúng tôi phục vụ.",
