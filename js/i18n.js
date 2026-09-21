@@ -40,15 +40,15 @@ const translations = {
     btn_contact_us: "CONTACT US",
 
     // Home Banners
-    banner1_title: "ABOUT <span class='color-primary'>US.</span>",
+    banner1_title: "ABOUT <span class='color-primary'>US</span>.",
     banner1_desc: "Wings Ocean aims to give the values of TRUST, CONSCIENTIOUS and FLEXIBILITY, creating PEACE OF MIND in every customer we serve.",
-    banner2_title: "OUR <span class='color-primary'>PROJECT.</span>",
+    banner2_title: "OUR <span class='color-primary'>PROJECT</span>.",
     banner2_desc: "A Wings Ocean fund will be formed to pay heart surgery for children with heart problems using a percentage of each shipment's profit.",
-    banner3_title: "<span class='color-primary'>OCEAN</span> TRANSPORT.",
+    banner3_title: "<span class='color-primary'>OCEAN</span> TRANSPORT<span class='color-primary'>.</span>",
     banner3_desc: "With a 360° service, we take care and monitor closely every stage of the shipment to deliver a top-quality service combining efficiency, reliability and cost control.",
-    banner4_title: "<span class='color-primary'>CUSTOMS</span> CLEARANCE.",
+    banner4_title: "<span class='color-primary'>CUSTOMS</span> CLEARANCE<span class='color-primary'>.</span>",
     banner4_desc: "Our team of advisers and customs brokers has in-depth knowledge of applicable laws and regulations, backed by 20 years of experience.",
-    banner5_title: "<span class='color-primary'>DOMESTIC</span> TRANSPORT.",
+    banner5_title: "<span class='color-primary'>DOMESTIC</span> TRANSPORT<span class='color-primary'>.</span>",
     banner5_desc: "Our diverse fleet provides reliable road freight solutions for almost all types of commodities, from parcels and documents to oversized and out-of-gauge machinery.",
 
     // Page Hero Banner Subtitles
