@@ -1123,7 +1123,7 @@ main {
 
 .network-section h2 {
     color: #FFFFFF;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'Forum', 'Sansita', serif;
     letter-spacing: 3px;
     margin-bottom: 46px;
@@ -2663,16 +2663,16 @@ main {
     .spec-intro-section {
         padding: 55px 0 45px;
     }
-    
+
     .spec-intro-title {
         font-size: 2.15rem;
     }
-    
+
     .spec-intro-card {
         padding: 30px 26px;
         border-radius: 20px;
     }
-    
+
     .spec-intro-text {
         font-size: 1rem;
     }
@@ -2680,11 +2680,11 @@ main {
     .spec-feature-section {
         padding: 65px 0;
     }
-    
+
     .spec-feature-title {
         font-size: 2.1rem;
     }
-    
+
     .spec-text-box {
         padding: 26px 28px;
         border-radius: 20px;
@@ -2709,11 +2709,11 @@ main {
     .spec-feature-title {
         font-size: 1.7rem;
     }
-    
+
     .spec-intro-card {
         padding: 22px 20px;
     }
-    
+
     .spec-text-box {
         padding: 22px 20px;
         border-left-width: 4px;
@@ -4183,6 +4183,3 @@ main {
     transform: translateY(-2px);
     box-shadow: 0 6px 18px rgba(30, 124, 172, 0.25);
 }
-
-
-

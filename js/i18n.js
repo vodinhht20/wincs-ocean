@@ -254,15 +254,15 @@ const translations = {
     btn_submit: "GỬI YÊU CẦU",
 
     // Home Banners
-    banner1_title: "VỀ <span class='color-primary'>CHÚNG TÔI.</span>",
+    banner1_title: "VỀ <span class='color-primary'>CHÚNG TÔI</span>.",
     banner1_desc: "Wings Ocean hướng đến việc mang lại những giá trị: TIN CẬY, TẬN TÂM và LINH HOẠT, tạo nên SỰ AN TÂM cho mọi khách hàng mà chúng tôi phục vụ.",
-    banner2_title: "DỰ ÁN <span class='color-primary'>CỦA CHÚNG TÔI.</span>",
+    banner2_title: "DỰ ÁN <span class='color-primary'>CỦA CHÚNG TÔI</span>.",
     banner2_desc: "Wings Ocean sẽ thành lập một quỹ thiện nguyện, trích một phần lợi nhuận từ mỗi lô hàng để hỗ trợ chi phí phẫu thuật tim cho trẻ em mắc bệnh tim bẩm sinh.",
-    banner3_title: "VẬN TẢI <span class='color-primary'>ĐƯỜNG BIỂN.</span>",
+    banner3_title: "VẬN TẢI <span class='color-primary'>ĐƯỜNG BIỂN</span>.",
     banner3_desc: "Với dịch vụ 360°, Wings Ocean đồng hành và giám sát chặt chẽ mọi giai đoạn của lô hàng, đảm bảo dịch vụ chất lượng cao, tối ưu hiệu quả, duy trì sự tin cậy và kiểm soát chi phí.",
-    banner4_title: "THỦ TỤC <span class='color-primary'>HẢI QUAN.</span>",
+    banner4_title: "THỦ TỤC <span class='color-primary'>HẢI QUAN</span>.",
     banner4_desc: "Đội ngũ tư vấn và môi giới hải quan của chúng tôi có kiến thức chuyên sâu về các quy định và pháp luật hiện hành, với nền tảng 20 năm kinh nghiệm.",
-    banner5_title: "VẬN TẢI <span class='color-primary'>NỘI ĐỊA.</span>",
+    banner5_title: "VẬN TẢI <span class='color-primary'>NỘI ĐỊA</span>.",
     banner5_desc: "Đội xe đa dạng của chúng tôi cung cấp các giải pháp vận tải đường bộ đáng tin cậy cho hầu hết các loại hàng hóa, từ bưu kiện, chứng từ đến máy móc quá khổ và hàng hóa vượt kích thước tiêu chuẩn.",
 
     // Page Hero Banner Subtitles
@@ -281,11 +281,11 @@ const translations = {
     btn_contact_us: "LIÊN HỆ NGAY",
     service_eyebrow: "CÁC GIẢI PHÁP CỐT LÕI",
     srv1_title: "VẬN TẢI<br>ĐƯỜNG BIỂN",
-    srv1_desc: "VỚI DỊCH VỤ 360°, CHÚNG TÔI CHĂM SÓC VÀ THEO DÕI CHẶT CHẼ TỪNG GIAI ĐOẠN CỦA LÔ HÀNG ĐỂ MANG LẠI DỊCH VỤ CHẤT LƯỢNG HÀNG ĐẦU KẾT HỢP HIỆU QUẢ, ĐỘ TIN CẬY VÀ KIỂM SOÁT CHI PHÍ.…",
+    srv1_desc: "VỚI DỊCH VỤ 360°, WINGS OCEAN ĐỒNG HÀNH VÀ GIÁM SÁT CHẶT CHẼ MỌI GIAI ĐOẠN CỦA LÔ HÀNG, ĐẢM BẢO DỊCH VỤ CHẤT LƯỢNG CAO, TỐI ƯU HIỆU QUẢ, DUY TRÌ SỰ TIN CẬY VÀ KIỂM SOÁT CHI PHÍ.",
     srv2_title: "VẬN TẢI<br>HÀNG KHÔNG",
     srv2_desc: "BỘ PHẬN VẬN TẢI HÀNG KHÔNG WINGS OCEAN ĐƯỢC ĐIỀU HÀNH BỞI ĐỘI NGŨ NHÂN VIÊN GIÀU KỸ NĂNG VÀ KINH NGHIỆM TRONG NGÀNH VẬN TẢI HÀNG KHÔNG.",
     srv3_title: "VẬN TẢI<br>NỘI ĐỊA",
-    srv3_desc: "ĐỘI XE ĐA DẠNG CỦA CHÚNG TÔI CUNG CẤP DỊCH VỤ VẬN CHUYỂN ĐƯỜNG BỘ CHO HẦU HẾT MỌI LOẠI HÀNG HÓA... TỪ BƯU PHẨM, TÀI LIỆU ĐẾN MÁY MÓC THIẾT BỊ SIÊU TRƯỜNG SIÊU TRỌNG.",
+    srv3_desc: "ĐỘI XE ĐA DẠNG CỦA CHÚNG TÔI CUNGĐỘI XE ĐA DẠNG CỦA CHÚNG TÔI CUNG CẤP CÁC GIẢI PHÁP VẬN TẢI ĐƯỜNG BỘ ĐÁNG TIN CẬY CHO HẦU HẾT CÁC LOẠI HÀNG HÓA, TỪ BƯU KIỆN, CHỨNG TỪ ĐẾN MÁY MÓC QUÁ KHỔ VÀ HÀNG HÓA VƯỢT KÍCH THƯỚC TIÊU CHUẨN.",
     srv4_title: "KHAI BÁO<br>HẢI QUAN",
     srv4_desc: "ĐỘI NGŨ CỐ VẤN VÀ ĐẠI LÝ HẢI QUAN CỦA CHÚNG TÔI CÓ KIẾN THỨC SÂU RỘNG VỀ PHÁP LUẬT VÀ QUY ĐỊNH HIỆN HÀNH VỚI HƠN 20 NĂM KINH NGHIỆM.",
     srv5_title: "THEO DÕI<br>HÀNG HÓA",
@@ -301,12 +301,12 @@ const translations = {
     why1_h2: "“ Báo Giá Nhanh Chóng & Kịp Thời ”",
     why1_p: "Chúng tôi cam kết cung cấp báo giá nhanh chóng và chính xác. Với hệ thống đánh giá giá cước tiên tiến và đội ngũ chuyên gia năng động, chúng tôi giúp bạn tiết kiệm thời gian và tối ưu hóa nguồn lực, đảm bảo bạn nhận được thông tin về mức giá cạnh tranh ngay lập tức.",
     why2_h2: "“ Ưu Tiên Giá & Phân Bổ Chỗ ”",
-    why2_p: "Chúng tôi hiểu rằng việc đảm bảo mức giá thuận lợi và được ưu tiên phân bổ chỗ là những yếu tố quan trọng trong quá trình vận chuyển. Do đó, chúng tôi luôn ưu tiên cung cấp mức giá cạnh tranh và đảm bảo lô hàng của bạn được ưu tiên về chỗ, giúp bạn đạt được dịch vụ vận chuyển hiệu quả với chi phí hợp lý.",
+    why2_p: "Chúng tôi hiểu rằng việc đảm bảo mức giá thuận lợi và có chỗ vận chuyển phù hợp là những yếu tố quan trọng trong quá trình vận chuyển. Vì vậy, chúng tôi luôn nỗ lực cung cấp mức giá cạnh tranh và ưu tiên đảm bảo chỗ cho lô hàng của bạn, giúp bạn chủ động kế hoạch vận chuyển với chi phí hợp lý.",
     why3_h2: "“ Tư Vấn & Giải Pháp Cho Mọi Thách Thức ”",
     why3_p: "Chúng tôi không chỉ là đối tác vận chuyển mà còn là người đồng hành tư vấn. Đội ngũ chuyên gia của chúng tôi sẵn sàng thảo luận và tìm giải pháp cho mọi thách thức bạn gặp phải. Chúng tôi cam kết hỗ trợ bạn không chỉ trong việc vận chuyển hàng hóa mà còn cung cấp các giải pháp sáng tạo và phù hợp với nhu cầu kinh doanh.",
 
     // Network
-    network_title: "MẠNG LƯỚI",
+    network_title: "MẠNG LƯỚI TOÀN CẦU",
 
     // About Us Page
     about_hero_title: "VỀ <span class='color-primary'>CHÚNG TÔI</span>.",
@@ -336,7 +336,7 @@ const translations = {
 
     // Service 1
     s1_title: "VẬN TẢI <span class='color-primary'>ĐƯỜNG BIỂN</span><span class='color-primary'>.</span>",
-    s1_desc: "Nhờ vào mức giá hợp đồng với các hãng tàu lớn cũng như mạng lưới rộng khắp các đại lý và đối tác được lựa chọn kỹ lưỡng, chúng tôi có thể cung cấp dịch vụ trọn gói từ cửa đến cửa, đáp ứng nhu cầu ngày càng cao của khách hàng.<br><br>Với dịch vụ 360°, chúng tôi chăm sóc và theo dõi sát sao từng giai đoạn vận chuyển để mang lại dịch vụ chất lượng cao kết hợp giữa hiệu quả, độ tin cậy và kiểm soát chi phí.",
+    s1_desc: "Nhờ vào mức giá hợp đồng với các hãng tàu lớn cũng như mạng lưới rộng khắp các đại lý và đối tác được lựa chọn kỹ lưỡng, chúng tôi có thể cung cấp dịch vụ trọn gói từ cửa đến cửa, đáp ứng nhu cầu ngày càng cao của khách hàng.<br><br>Với dịch vụ 360°, Wings Ocean đồng hành và giám sát chặt chẽ mọi giai đoạn của lô hàng, đảm bảo dịch vụ chất lượng cao, tối ưu hiệu quả, duy trì sự tin cậy và kiểm soát chi phí.",
     s1_choose_title: "Lựa chọn <span class='colo_choose_text'>Wings Ocean</span> cho vận tải đường biển và bạn sẽ nhận được",
     s1_item1_h: "Ưu Tiên Về Giá & Chỗ:",
     s1_item1_p: "Chúng tôi có bề dày thành tích và sản lượng lớn với hầu hết các hãng vận chuyển lớn, mang lại lợi thế về giá ưu tiên và phân bổ chỗ.",
@@ -360,7 +360,7 @@ const translations = {
 
     // Service 3
     s3_title: "VẬN TẢI <span class='color-primary'>NỘI ĐỊA</span><span class='color-primary'>.</span>",
-    s3_desc: "Đội xe đa dạng của chúng tôi cung cấp dịch vụ vận tải đường bộ cho hầu hết các loại hàng hóa... từ bưu phẩm và tài liệu đến máy móc quá khổ và siêu trường.<br><br>Chúng tôi cam kết cải tiến liên tục, điều đó có nghĩa là phương tiện của chúng tôi thuộc nhóm an toàn nhất trên đường, đạt hiệu quả cao và thân thiện với môi trường.",
+    s3_desc: "Đội xe đa dạng của chúng tôi cung cấp các giải pháp vận tải đường bộ đáng tin cậy cho hầu hết các loại hàng hóa, từ bưu kiện, chứng từ đến máy móc quá khổ và hàng hóa vượt kích thước tiêu chuẩn.<br><br>Chúng tôi cam kết cải tiến liên tục, điều đó có nghĩa là phương tiện của chúng tôi thuộc nhóm an toàn nhất trên đường, đạt hiệu quả cao và thân thiện với môi trường.",
     s3_choose_title: "Lựa chọn <span class='colo_choose_text'>Wings Ocean</span> cho vận tải đường bộ và bạn sẽ nhận được",
     s3_item1_h: "Vận Chuyển Đáng Tin Cậy:",
     s3_item1_p: "Dịch vụ vận tải đường bộ của chúng tôi đảm bảo hàng hóa được vận chuyển an toàn và chắc chắn đến điểm đến.",
